@@ -15,9 +15,6 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
 
 ## Documents
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
 | 1 | Zillow | A popular service for buying and renting apartments. | https://www.zillow.com/seattle-wa/ |
@@ -35,61 +32,41 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
 
 ## Chunking Strategy
 
-<!-- How will you split documents into chunks?
-     State your chunk size (in tokens or characters), overlap size, and explain why those
-     numbers fit the structure of your documents.
-     A review-heavy corpus warrants different chunking than a long FAQ. -->
+**Chunk size:** 250
 
-**Chunk size:**
+**Overlap:** 50
 
-**Overlap:**
-
-**Reasoning:**
+**Reasoning:** Since the sources for finding information regarding life in the Seattle can vary greatly, a balanced chunk size with a good overlap should provide enough coverage of the info while not overwhelming the model.
 
 ---
 
 ## Retrieval Approach
 
-<!-- Which embedding model are you using (e.g., all-MiniLM-L6-v2 via sentence-transformers)?
-     How many chunks will you retrieve per query (top-k)?
-     If you were deploying this for real users and cost wasn't a constraint, what tradeoffs
-     would you weigh in choosing a different embedding model — context length, multilingual
-     support, accuracy on domain-specific text, latency? -->
+**Embedding model:** all-MiniLM-L6-v2
 
-**Embedding model:**
+**Top-k:** 3
 
-**Top-k:**
-
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** For real users, I would choose the default embedding model as I think it's generally useful for those looking to live in Seattle for work or school. Multilingual support isn't something I'm considering since that introduces complexity for querying and the storage and document requirements to support additional languages would explode.
 
 ---
 
 ## Evaluation Plan
 
-<!-- List your 5 test questions with their expected correct answers.
-     Questions should be specific enough that you can judge whether the system's response
-     is right or wrong. "What are good dining halls?" is too vague.
-     "What do students say about wait times at [dining hall name] during lunch?" is testable. -->
-
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What is one university in Seattle? | University of Washington |
+| 2 | What are some of the biggest tech companies in Seattle? | Microsoft, Google, Amazon, Meta |
+| 3 | How many people live in Seattle? | About at least 750,000. |
+| 4 | Is Seattle a walkable city? | Yes. |
+| 5 | What state is Seattle in? | Washington |
 
 ---
 
 ## Anticipated Challenges
 
-<!-- What could go wrong? Name at least two specific risks with reasoning.
-     Consider: noisy or inconsistent documents, missing source attribution, off-topic
-     retrieval, chunks that split key information across boundaries. -->
+1. Chunks not properly separating text in a logical manner, giving the model incomplete or unrelated information.
 
-1.
-
-2.
+2. The model not using the information provided via the embeddings.
 
 ---
 
@@ -100,6 +77,14 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+```mermaid
+flowchart TB
+    A["Document Ingestion\n(pathlib / plain text files)"] --> B["Chunking\n(Python, size=250, overlap=50)"]
+    B --> C["Embedding + Vector Store\n(all-MiniLM-L6-v2 + ChromaDB)"]
+    C --> D["Retrieval\n(Cosine Similarity, top-k=3)"]
+    D --> E["Generation\n(Groq API)"]
+```
 
 ---
 
@@ -114,6 +99,20 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
      "I'll use AI to help me code" is not a plan.
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
+
+I'll use Claude Code as it is what I currently have for CodePath.
+1. Document Ingestion
+  - For Document Ingestion, I'll have the model first attempt to write up a file to download the text directly, via BeautifulSoup or other optimal library, depending on the source. If the contents are gated behind a login wall or the model is blocked from accessing the data, I'll need to brainstorm a quick solution to getting around it, via user agent spoofing or manually obtaining the information. Each document(s) would reside in their own folder, representing the source data. There should be at least 10 document folders.
+2. Chunking
+  - The model will chunk the information with some overlap and prepare them for storing.
+3. Embedding + Vector Store
+  - Wire up a solution that feeds the chunks with metadata to the database using an embedding model.
+4. Retrieval
+  - Implement a simple GUI interface with a box for inserting user messages and a box to get what chunks were retrieved. Test a user prompt and see what the retrieved chunks are from the vector database.
+5. Generation
+  - Run using OpenAI's OSS 20B model powered by Groq with information from ChromaDB. Add a text box to see what the model's outputs are. Use a minimal system prompt.
+
+
 
 **Milestone 3 — Ingestion and chunking:**
 
