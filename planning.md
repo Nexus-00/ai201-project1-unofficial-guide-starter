@@ -9,7 +9,7 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+Apartments in Seattle. Depending on where you look, rent prices and experiences can vary depending on what website you're looking, as well as the final negotiated prices by landlords. In addition, there may be additional fees or charges that aren't listed in the price everyone sees, or other problems.
 
 ---
 
@@ -20,16 +20,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Zillow | A popular service for buying and renting apartments. | https://www.zillow.com/seattle-wa/ |
+| 2 | Derby Boutique Apartments | Rent studio apartments near South Lake Union. | https://www.liveatderbyslu.com/ |
+| 3 | Apartments | Another service for finding properties to rent. | https://www.apartments.com/seattle-wa/ |
+| 4 | Craigslist | General website for buyers/renters to connect directly with sellers/landlords | https://seattle.craigslist.org/search/apa |
+| 5 | Reddit | Seattle Housing for Redditors, of varying quality. | https://www.reddit.com/r/seattlehousing/ |
+| 6 | Reddit | Pros and Cons of Living in Seattle | https://www.reddit.com/r/SeattleWA/comments/188kibg/the_pros_and_cons_of_living_in_seattle/ |
+| 7 | Tripadvisor | Forums about activites in Seattle | https://www.tripadvisor.com/ShowForum-g60878-i74-Seattle_Washington.html |
+| 8 | Facebook | Buy and Sell apartments and items at Seattle | https://www.facebook.com/marketplace/seattle/ |
+| 9 | City-Data.com | Discussions of Neighborhoods, rents, and quality of life. | https://www.city-data.com/city/Seattle-Washington.html | 
+| 10 | Teamblind | Public forum popular with tech workers with threads about Seattle | https://www.teamblind.com/ |
 
 ---
 
