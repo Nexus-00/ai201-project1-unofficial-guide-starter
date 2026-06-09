@@ -3,7 +3,6 @@ Our AI is always learning and some details weren't matched. You can still try th
 minimum rent select combobox, maximum rent select combobox, Only show listings with no broker's fee, Select two tiles for min/max range, Studio+, 1+, 2+, 3+, 4+, 1+, 2+, 3+, Destination is required, Select transportation method
 Driving, Public Transit, Walking, Cycling, Ideal commute time, Under 30 minutes
 Commute Time is calculated at rush hour.
-Square Feet, minimum square feet, No Min, 400, 500, 600, 700, 800, 900, 1,000, 1,100, 1,200, 1,300, 1,400
 Transit Lines, Home Type, Apartments, Houses, Condos, Townhomes, Space, Entire Place, Room for Rent, Home Styles, Duplex, New Construction, Fewer than 50 Units, Walk-Up
 Brownstone, Pre-War, Specialty Housing, Housing Type, Lifestyle select combobox, Student, Senior, Military, Corporate, None, Select One, Student, Senior, Military
 Corporate, None, Student Filters, All Universities, University select, Select One, Pricing Type, Pricing Per-Person, Pricing Per-Unit, Amenities, Individual Locking Bedrooms, Private Bathroom, Roommate Matching, Shuttle to Campus
@@ -14,7 +13,6 @@ Fitness Center, Walk-In Closets, Gated Community, Apartment Amenities, Balcony, 
 High Ceilings, Basement, Community Amenities, Controlled Access, Elevator, Pavillon, Doorman, Concierge, Business Center, Playground, Storage Units, Dog Park, EV Charging, Show All Amenities
 Show Less Amenities, Schools Rating, 5+, 6+, 7+, 8+, 9+, 10, Elementary, Middle, High, School data provided by, (opens in new window/tab)
 The GreatSchools Rating summarizes school quality based on student progress, college readiness, and test scores.
-Square Feet, minimum square feet, No Min, 400, 500, 600, 700, 800, 900, 1,000, 1,100, 1,200, 1,300, 1,400
 Renter Rating, 5 Stars, 4 Stars, Show Only, Properties with move-in specials, Properties that are for rent by owner, Keyword
 Keyword search, separate by commas.
 Clear All, See 13,097 Results

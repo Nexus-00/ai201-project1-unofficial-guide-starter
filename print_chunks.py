@@ -13,6 +13,7 @@ Run clean_docs.py first so the input is normalized.
 
 import random
 import re
+import sys
 from pathlib import Path
 
 DOCUMENTS_DIR = Path("documents")
@@ -76,6 +77,11 @@ def load_chunks() -> list[dict]:
 
 
 def main():
+    # The corpus contains emoji / non-Latin text; force UTF-8 so printing chunks
+    # doesn't crash on the Windows console's default cp1252 codec. Done here (not
+    # at import) so importing this module has no side effects on the importer.
+    sys.stdout.reconfigure(encoding="utf-8")
+
     chunks = load_chunks()
 
     # Per-source breakdown.

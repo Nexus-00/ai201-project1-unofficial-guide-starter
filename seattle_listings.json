@@ -1,0 +1,3428 @@
+{
+  "source": "Zillow",
+  "region": "Seattle, WA",
+  "searchFilter": "For sale, 3+ beds, 2+ baths",
+  "scrapedDate": "2026-06-09",
+  "count": 51,
+  "fields": [
+    "url",
+    "zpid",
+    "address",
+    "zip",
+    "price",
+    "beds",
+    "baths",
+    "sqft",
+    "homeType",
+    "yearBuilt",
+    "lotSizeSqft",
+    "pricePerSqft",
+    "daysOnZillow",
+    "status",
+    "lat",
+    "lng",
+    "description",
+    "amenities",
+    "schools",
+    "gettingAround"
+  ],
+  "listings": [
+    {
+      "url": "https://www.zillow.com/homedetails/2816-NW-80th-St-Seattle-WA-98117/49084753_zpid/",
+      "zpid": 49084753,
+      "address": "2816 NW 80th Street, Seattle, WA 98117",
+      "zip": "98117",
+      "price": 699500,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1510,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "2,082 sqft",
+      "pricePerSqft": 463,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.6869,
+      "lng": -122.39386,
+      "description": "Welcome home to this charming and light-filled Seattle residence in an unbeatable location! Abundant natural light pours throughout the home, creating a warm and inviting atmosphere. The thoughtful floor plan offers exceptional flexibility with one bedroom and a full bathroom on the main level, while two additional bedrooms and a second full bathroom are located upstairs, providing comfortable separation of space for guests, remote work, or everyday living. Enjoy the convenience of off-street parking for one vehicle and the peace of mind that comes with a brand-new furnace. The home has been well maintained while still offering an excellent opportunity for the next owner to add their own personal touches, build equity, and create value over time. Located just minutes from the heart of Ballard, you'll love the easy access to popular restaurants, coffee shops, parks, grocery stores, and local shopping. Whether you're looking to enjoy the vibrant neighborhood amenities or simply appreciate a convenient Seattle lifestyle, this location is hard to beat. A fantastic opportunity to own a bright and functional home with two full bathrooms, off-street parking, a versatile floor plan, and exciting potential to make it your own in one of Seattle's most sought-after neighborhoods.",
+      "amenities": {
+        "parkingFeatures": [
+          "Off Street"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "3",
+          "name": "Licton Springs K-8",
+          "grades": "PK-8",
+          "distance": "0.6 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Ballard High School",
+          "grades": "9-12",
+          "distance": "1.1 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Whitman Middle School",
+          "grades": "6-8",
+          "distance": "1 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 74,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 45,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 85,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/6551-5th-Ave-NE-B-Seattle-WA-98115/2068061559_zpid/",
+      "zpid": 2068061559,
+      "address": "6551 5th Avenue NE #B, Seattle, WA 98115",
+      "zip": "98115",
+      "price": 767000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1200,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "1,036 sqft",
+      "pricePerSqft": 639,
+      "daysOnZillow": 5,
+      "status": "FOR_SALE",
+      "lat": 47.677048,
+      "lng": -122.3247,
+      "description": "Sunniest living room ever, right in the heart of Green Lake! It's just so easy to get your steps in, have a latte, or go out to a great restaurant!  This is a very well built home with a splendid layout. The pristine maple hardwood floors feel great on the feet and there is new radiant heat throughout. There's a beautiful penny-tiled fireplace. Large private and fenced back patio and side yard. And a balcony off the living room. Garage with easy turnaround courtyard. Quick I-5 access and a 3-block walk to light rail, PCC, and Whole Foods! A solid investment and a great place to live. New roof and No HOA Dues!",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Green Lake Elementary School",
+          "grades": "PK-5",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "1.5 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "0.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 82,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 62,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 86,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/2615-E-Garfield-St-Seattle-WA-98112/48883846_zpid/",
+      "zpid": 48883846,
+      "address": "2615 E Garfield Street, Seattle, WA 98112",
+      "zip": "98112",
+      "price": 1795000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2990,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "6,642 sqft",
+      "pricePerSqft": 600,
+      "daysOnZillow": 6,
+      "status": "FOR_SALE",
+      "lat": 47.632458,
+      "lng": -122.29911,
+      "description": "It's always a beautiful day in this neighborhood.  An exquisite and stunning Art Deco style home that borders the Arboretum and Montlake available for the first time in over 25 years.  From the moment you walk in the rounded door, this place is a stunner. Coved walls, gorgeous hardwood floors, privacy out every window and all of it aiming towards the back yard.   Like a private park, the lot features a fully hedged area yard, patio and beautiful plantings.  The view from the main bed to the back yard will take your breath away.  A central open kitchen with everything you could ever want including a charming breakfast nook which is the heart of the home. 3 large main floor bedrooms, and 2 baths on the main level give you all the flexibility of layout you could desire.  Downstairs features a 4th non-conforming bedroom and an amazing additional Living room with gas fireplace and space to spread out.  The true Montlake location is incredibly quiet and peaceful without any of the traffic or street noise. Garfield Street is a round cul-de-sac that borders the Arboretum and becomes Galer to the South.  This street is whimsical with a green space right across from the driveway and walkable to the Montlake strip.  Easy access to downtown, UW and of course the Washington Arboretum and Trails.  Featured on ADTV's \"Selling Seattle\" Television show, homes like this rarely hit the market and this one begs the question, Will you be my neighbor?",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 4
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "McGilvra Elementary School",
+          "grades": "K-5",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Edmonds S. Meany Middle School",
+          "grades": "6-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Garfield High School",
+          "grades": "9-12",
+          "distance": "1.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 39,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 49,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 70,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/942-N-82nd-St-Seattle-WA-98103/48995834_zpid/",
+      "zpid": 48995834,
+      "address": "942 N 82nd Street, Seattle, WA 98103",
+      "zip": "98103",
+      "price": 690000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 1434,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "3,057 sqft",
+      "pricePerSqft": 481,
+      "daysOnZillow": 81,
+      "status": "FOR_SALE",
+      "lat": 47.68861,
+      "lng": -122.34532,
+      "description": "Welcome to a 4-bedroom home in a prime Seattle location near Green Lake and Greenwood, offering space, flexibility, and long-term value in a high-demand area.    Bright main level with large windows, natural light, fireplace, and a functional layout connecting the living, dining, and kitchen areas. Private deck offers great space for relaxing or entertaining.    Lower level includes 2 bedrooms, 1 finished bathroom with walk-in shower, a separate entrance, and two kitchenette areas—well suited for multi-generational living, shared housing, or flexible use (buyer to verify).    Home is livable and offers an opportunity to update and build equity over time. An additional bathroom is partially complete and provides the opportunity to finish and add value.    Two-car garage and easy access to Green Lake, Greenwood, parks, shopping, dining, and major commuter routes including I-5 and Highway 99.    Ideal for buyers seeking space, location, and flexibility without paying for full renovations.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "8",
+          "name": "Daniel Bagley Elementary School",
+          "grades": "K-5",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Robert Eagle Staff Middle School",
+          "grades": "6-8",
+          "distance": "0.5 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Ingraham High School",
+          "grades": "9-12",
+          "distance": "2.6 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 89,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 55,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 77,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1018-NW-130th-St-Seattle-WA-98177/48884423_zpid/",
+      "zpid": 48884423,
+      "address": "1018 NW 130th Street, Seattle, WA 98177",
+      "zip": "98177",
+      "price": 1095000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1779,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "8,102 sqft",
+      "pricePerSqft": 616,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.72358,
+      "lng": -122.37035,
+      "description": "Tucked into the heart of Broadview, this mid-century ranch offers warmth, flexibility, and an exceptional connection to the outdoors. The 3-bedroom, 2-bath layout features an updated primary suite, dual living areas, and a light-filled sunroom ideal for a home office, studio, or lounge space. The expansive yard feels like a private retreat with lush sod, garden space, fruit trees, and a beautifully maintained hot tub. Thoughtful details including solar panels, skylights, and a cozy wood stove add comfort and character. All set within a walkable neighborhood with views of the Puget Sound and Olympic Mountains.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Broadview-Thomson Elementary School",
+          "grades": "PK-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Ingraham High School",
+          "grades": "9-12",
+          "distance": "1.5 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Robert Eagle Staff Middle School",
+          "grades": "6-8",
+          "distance": "2.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 8,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 30,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 27,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/9553-Evanston-Ave-N-Seattle-WA-98103/48740674_zpid/",
+      "zpid": 48740674,
+      "address": "9553 Evanston Avenue N, Seattle, WA 98103",
+      "zip": "98103",
+      "price": 894000,
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1680,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "2,500 sqft",
+      "pricePerSqft": 532,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.69935,
+      "lng": -122.35166,
+      "description": "FULLY REMODELED IN THE HEART OF GREENWOOD Greenwood's most thoughtfully executed remodel just hit the market, and the details are what set it apart. South-facing with exceptional sun exposure, the open-concept main floor flows effortlessly: a chef's kitchen anchored by a custom range hood, wide-plank floors, and a layout that keeps everything connected and filled with natural light. In a city where \"bedroom\" often means barely fitting a queen, all three bedrooms here comfortably accommodate a king, and still have room to spare. Upstairs, the wet room primary bath is the standout: a fully tiled, spa-caliber shower experience that earns its own conversation. The fully finished basement with its own private entrance opens the door to real flexibility, whether that's a mother-in-law suite, long-term rental income, or space that simply grows with you. Every permit pulled, every inspection passed. Outside, the low maintenance lawn frees up your weekends, and a concrete planter box lets you build the garden of your dreams right in front of your doorstep. Dedicated parking. Low-maintenance lot. Move-in ready. Greenwood's best coffee, dining, and transit are steps away. Fully permitted and built for how you actually live. Welcome home.",
+      "amenities": {
+        "parkingFeatures": [
+          "Off Street"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Viewlands Elementary School",
+          "grades": "PK-5",
+          "distance": "0.6 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Whitman Middle School",
+          "grades": "6-8",
+          "distance": "1.2 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Ingraham High School",
+          "grades": "9-12",
+          "distance": "1.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 63,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 58,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 83,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3056-60th-Ave-SW-Seattle-WA-98116/2069811124_zpid/",
+      "zpid": 2069811124,
+      "address": "3056 60th Avenue SW, Seattle, WA 98116",
+      "zip": "98116",
+      "price": 2650000,
+      "beds": 13,
+      "baths": 11,
+      "sqft": 9257,
+      "homeType": "MULTI_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,523 sqft",
+      "pricePerSqft": 286,
+      "daysOnZillow": 0,
+      "status": "FOR_SALE",
+      "lat": 47.576054,
+      "lng": -122.40906,
+      "description": "Admiral 7 consists of seven well-designed units featuring an attractive mix of spacious townhomes and flats. The unit mix includes four 2-bed-room, 1.5-bath townhome-style units averaging approximately 1,000 square feet, two 2-bedroom, 1-bath flats averaging 814 square feet, and one large 1-bedroom unit.    Each unit offers functional and desirable layouts with large living rooms, dedicated dining areas, and open kitchens featuring modern updates. Interiors are enhanced by updated bathrooms, oversized closets, abundant natural light through large windows, and the convenience of in-unit laundry.    Situated in North Admiral, one of West Seattle’s most coveted neighborhoods, the property benefits from a unique blend of coastal lifestyle and urban convenience. Residents are just minutes from Alki Beach’s vibrant waterfront scene, while also enjoying proximity to Admiral Junction’s neighborhood amenities, grocery stores, cafes, and restaurants.",
+      "amenities": {
+        "parkingFeatures": [
+          "Garage"
+        ],
+        "hasGarage": false,
+        "garageParkingCapacity": 7,
+        "parkingCapacity": 7
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Alki Elementary School",
+          "grades": "PK-5",
+          "distance": "0.1 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Madison Middle School",
+          "grades": "6-8",
+          "distance": "0.9 mi"
+        },
+        {
+          "rating": "7",
+          "name": "West Seattle High School",
+          "grades": "9-12",
+          "distance": "1.1 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 71,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 35,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 69,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/6848-31st-Ave-NE-Seattle-WA-98115/49036241_zpid/",
+      "zpid": 49036241,
+      "address": "6848 31st Avenue NE, Seattle, WA 98115",
+      "zip": "98115",
+      "price": 1075000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2100,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "3,998 sqft",
+      "pricePerSqft": 512,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.679054,
+      "lng": -122.29381,
+      "description": "Opportunity knocks on one of Bryant's most coveted streets. Owned and lovingly maintained by the same owner for 35 years, this classic Tudor blends enduring charm, architectural character, and incredible potential. Step through the charming arched entry and discover coved ceilings, leaded-glass windows, rich hardwood floors, and a stunning tiled wood-burning fireplace that anchors the inviting living and dining rooms.The spacious kitchen offers an exciting opportunity to create your dream culinary space and opens to a versatile breakfast room/flex space with direct access to the deck, patio, and private backyard—ideal for casual dining, a cozy sitting area, home office, or everyday gathering space. The main floor features a bedroom with rich hardwood floors adjacent to a full bath. Upstairs, the expansive upper level offers exceptional flexibility and exciting future potential, with ample space for a luxurious primary suite and an adjoining loft area that could accommodate a walk-in closet and ensuite bath (buyer to verify).The lower level boasts impressive ceiling height and includes a spacious bedroom, full bath, bonus room, laundry area, and abundant storage, presenting additional opportunities for customization and expansion. Outside, enjoy a private backyard with room to garden, entertain, or simply relax. The oversized detached garage provides valuable storage and may offer possibilities for a future studio, workshop, fitness space, or home office.",
+      "amenities": {
+        "parkingFeatures": [
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Bryant Elementary School",
+          "grades": "K-5",
+          "distance": "0.5 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "0.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 55,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 48,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 82,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/9059-Carkeek-Dr-S-Seattle-WA-98118/48679063_zpid/",
+      "zpid": 48679063,
+      "address": "9059 Carkeek Drive S, Seattle, WA 98118",
+      "zip": "98118",
+      "price": 649900,
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2250,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "8,537 sqft",
+      "pricePerSqft": 289,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.52245,
+      "lng": -122.28157,
+      "description": "Perched on Seattle's lower Beacon Hill, this 4-bedroom, 2-bath Craftsman offers the ultimate owner-occupancy investment strategy. The lot is 8,539 SqFt with RSL zoning allowing for increased density. The lower level is separately metered with its own kitchen and washer/dryer—live upstairs and let the rent below offset your mortgage, or maximize cash flow with short- or long-term rental strategies. Separate entries ensure privacy and flexibility for both units.Entertain with ease on the generous patio and yard space, and rest easy knowing the fully fenced lot is ready for pets. A classic Craftsman with timeless curb appeal, the home sits one block from the Seattle Link Light Rail station and directly on a Metro Bus line—making it a magnet for tenants who want car-free access to the city.Walkable to shopping, dining, parks, and schools, this location checks every box for strong rental demand and long-term resale value. Whether you're house hacking, accommodating multi-generational living, or building a rental portfolio—this is the opportunity. Buyer to verify increased density potential.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "5",
+          "name": "The New School At South Shore",
+          "grades": "PK-8",
+          "distance": "0.5 mi"
+        },
+        {
+          "rating": "2",
+          "name": "Rainier Beach High School",
+          "grades": "9-12",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "3",
+          "name": "Wing Luke Elementary School",
+          "grades": "PK-5",
+          "distance": "0.6 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 67,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 62,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 44,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/5653-34th-Ave-SW-Seattle-WA-98126/49031069_zpid/",
+      "zpid": 49031069,
+      "address": "5653 34th Avenue SW, Seattle, WA 98126",
+      "zip": "98126",
+      "price": 949950,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2150,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "4,839 sqft",
+      "pricePerSqft": 442,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.550392,
+      "lng": -122.37535,
+      "description": "Welcome to this beautifully maintained and thoughtfully cared-for 4 bedroom, 2.25 bath + den home, offering light-filled living and exceptional views of the Cascades, Mt. Rainier, and the city skyline. A welcoming formal entry with soaring ceilings sets the tone, leading to an inviting, entertainer’s kitchen featuring a pot filler, abundant counter space, a pantry, and seamless connection to the dining area. Adjacent to the kitchen is a versatile space ideal for a home office, along with a spacious living room designed for comfort and gathering.  Upstairs, you’ll find a bedroom with western light exposure and a generously sized primary suite showcasing panoramic views, dual closets, and private access to a serene side deck. The newly updated primary bath features a walk-in shower and a double vanity. The lower level is above grade with full ceiling height & includes two additional bedrooms, a full bath with laundry, and direct access to the attached garage.  Outdoor living is equally impressive, with four distinct recreational spaces, a beautifully curated garden, and a second detached garage adorned with an authentic “Henry” mural. This home has had many updates including a new roof and fence in 2022. Just steps away from coffee, the library, parks and Camp Long. And is move in ready. Plus very convenient access to downtown via Metro. Come see!",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage",
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 7
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Fairmount Park Elementary",
+          "grades": "PK-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "4",
+          "name": "Louisa Boren STEM K-8",
+          "grades": "PK-8",
+          "distance": "0.6 mi"
+        },
+        {
+          "rating": "7",
+          "name": "West Seattle High School",
+          "grades": "9-12",
+          "distance": "1.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 70,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 50,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 68,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4620-15th-Ave-S-Seattle-WA-98108/48649011_zpid/",
+      "zpid": 48649011,
+      "address": "4620 15th Avenue S, Seattle, WA 98108",
+      "zip": "98108",
+      "price": 875000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1591,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "9,892 sqft",
+      "pricePerSqft": 550,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.56101,
+      "lng": -122.31307,
+      "description": "Timeless Beacon Hill Craftsman set on a rare double lot. This is where classic charm meets thoughtful modern updates. Rich in original character and beautifully enhanced for today's lifestyle, this inviting home offers warmth, comfort, and exceptional outdoor living. Elevated above the street and fully gated with electronic entry, the property enjoys open territorial views and stunning Olympic Mountain sunsets. Lovey gardens surround the home, featuring raised planting beds, terraced landscaping, and mature fruit trees including apple, cherry, and plum—creating a true urban oasis. Inside, period details blend with modern amenities. The updated kitchen and baths feature heated floors, while efficient mini-split systems provide year-round heating and A/C. The heart of the home extends outdoors to an expansive deck off the kitchen, complete with built-in seating and a gas fire pit, dedicated gas BBQ connection, and ample space for entertaining, dining, or relaxing. The versatile lower level has been thoughtfully updated and includes a separate entrance, spacious family room, bedroom, full bath, and laundry—ideal for guests, a home office, or additional flex space. Additional features include EV charging, abundant outdoor living areas, and a desirable central location with convenient access to parks, schools, shopping, dining, and major commuter routes. A rare opportunity to own an updated home on an expansive double lot, in the heart of Beacon Hill.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Off Street",
+          "RV Parking"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "8",
+          "name": "Maple Elementary School",
+          "grades": "K-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Mercer Middle School",
+          "grades": "6-8",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Cleveland High School",
+          "grades": "9-12",
+          "distance": "0.6 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 74,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 55,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 73,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1405-29th-Ave-Seattle-WA-98122/462972325_zpid/",
+      "zpid": 462972325,
+      "address": "1405 29th Avenue, Seattle, WA 98122",
+      "zip": "98122",
+      "price": 1179950,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 1916,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": 2026,
+      "lotSizeSqft": "1 sqft",
+      "pricePerSqft": 616,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.613407,
+      "lng": -122.29512,
+      "description": "Discover modern living at The Central on 29th. Thoughtfully designed with both style and functionality in mind, this new construction home offers 4 bedrooms, 3 baths, 1,916 square feet, and a private EV-ready garage in the heart of Seattle’s Central District. A bright, open-concept floor plan creates seamless flow between the kitchen, dining, and living spaces, while a designer fireplace adds warmth and character to the main gathering area. The well-appointed kitchen and designer-selected finishes blend timeless style with modern convenience, creating a home that is both inviting and functional. Flexible living spaces provide room for guests, work-from-home needs, or everyday living, while thoughtfully designed baths offer a refined retreat. Above it all, a private roof deck extends the living space outdoors—perfect for morning coffee, entertaining, or enjoying Seattle sunsets. Ideally located near neighborhood cafés, restaurants, parks, downtown Seattle, Capitol Hill, and major commuter routes, The Central on 29th offers the perfect balance of modern design, convenience, and vibrant city living.",
+      "amenities": {
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)"
+        ],
+        "cooling": [
+          "Ductless"
+        ],
+        "heating": [
+          "Fireplace",
+          "Ductless",
+          "HRV/ERV System",
+          "Wall Furnace",
+          "Electric"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Engineered Hardwood",
+          "Carpet"
+        ],
+        "parkingFeatures": [
+          "Individual Garage"
+        ],
+        "lotFeatures": [
+          "Corner Lot",
+          "Curbs",
+          "Dead End Street",
+          "Paved",
+          "Sidewalk"
+        ],
+        "view": [
+          "Territorial"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1,
+        "hasFireplace": true,
+        "fireplaceFeatures": [
+          "Electric",
+          "Upper Level: 1",
+          "Fireplace"
+        ],
+        "roofType": "Composition,Flat",
+        "associationFee": "Has HOA fee",
+        "hasView": true
+      },
+      "schools": [
+        {
+          "rating": "8",
+          "name": "Madrona Elementary School",
+          "grades": "K-5",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Edmonds S. Meany Middle School",
+          "grades": "6-8",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Garfield High School",
+          "grades": "9-12",
+          "distance": "0.7 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 93,
+          "label": "Walker's Paradise"
+        },
+        "transit": {
+          "score": 59,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 80,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/813-NW-63rd-St-Seattle-WA-98107/48672386_zpid/",
+      "zpid": 48672386,
+      "address": "813 NW 63rd Street, Seattle, WA 98107",
+      "zip": "98107",
+      "price": 899950,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1649,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": 2026,
+      "lotSizeSqft": "1,049 sqft",
+      "pricePerSqft": 546,
+      "daysOnZillow": 12,
+      "status": "FOR_SALE",
+      "lat": 47.674377,
+      "lng": -122.366776,
+      "description": "Right in the heart of Ballard, this newly built home delivers a clean, modern feel with just the right amount of edge. Designed for how people actually live, the open-concept layout connects kitchen, dining, and living into one seamless, light-filled space—ideal for hosting, relaxing, or just keeping things easy day to day. The kitchen stands out with thoughtfully selected designer finishes, blending style and function without trying too hard. Three well-sized bedrooms offer flexibility for whatever you need—guest space, office, or both—while the overall design keeps things efficient, comfortable, and dialed in. A spacious rooftop deck extends your living outdoors, perfect for sunset hangs, weekend gatherings, or just taking in the neighborhood vibe. A dedicated EV-Ready parking stall adds everyday convenience, rounding out a home that fits right into Ballard’s mix of modern living and laid-back character, just moments from local shops, restaurants, and some of Seattle’s best coffee! Welcome Home! **Limited-time financing incentive available through Team Eickhoff at Cornerstone: enjoy a lender-paid 1-0 buydown for a lower first-year interest rate, plus lender credit toward closing costs. Buyers also receive no lender fees on a future refinance when rates drop!**",
+      "amenities": {
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)"
+        ],
+        "cooling": [
+          "Ductless"
+        ],
+        "heating": [
+          "Ductless",
+          "Wall Furnace",
+          "Electric"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Engineered Hardwood",
+          "Carpet"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary"
+        ],
+        "parkingFeatures": [
+          "Off Street"
+        ],
+        "lotFeatures": [
+          "Curbs",
+          "Paved",
+          "Sidewalk",
+          "Electric Car Charging",
+          "Rooftop Deck"
+        ],
+        "view": [
+          "Territorial"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 1,
+        "hasFireplace": false,
+        "roofType": "Flat",
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "associationFee": "$5 annually",
+        "hasView": true
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "West Woodland Elementary School",
+          "grades": "K-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Salmon Bay School",
+          "grades": "K-8",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Ballard High School",
+          "grades": "9-12",
+          "distance": "0.4 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 87,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 51,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 89,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4007-48th-Ave-NE-Seattle-WA-98105/49047705_zpid/",
+      "zpid": 49047705,
+      "address": "4007 48th Avenue NE, Seattle, WA 98105",
+      "zip": "98105",
+      "price": 2350000,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 3980,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "3,598 sqft",
+      "pricePerSqft": 590,
+      "daysOnZillow": 5,
+      "status": "FOR_SALE",
+      "lat": 47.657963,
+      "lng": -122.27699,
+      "description": "Rich in architectural detail, this beautifully maintained 1930 brick home blends old-world charm with modern updates providing comfortable everyday living. Gracious formal spaces, hardwood floors, leaded glass windows and period craftsmanship create a warm and inviting atmosphere throughout. The sunny east-facing living room is anchored by a stately Batchelder tile fireplace and flows to a sweet media area, kitchen and dining room. Upstairs offers a spacious primary suite with walk-in closet and marble bathroom with steam shower, plus 2 more bedrooms another full bath. The crown jewel of the home is the stunning third floor retreat, where sweeping views of Lake Washington and the Cascade Mountains unfold before you. Whether used as a media room, office, guest space or inspiring studio, this remarkable vantage point captures the very best of Seattle living. Outside, curated gardens and lush landscaped grounds create an urban sanctuary, with mature plantings and an inviting outdoor patio. Ideally located near Laurelhurst Park, the Laurelhurst Beach Club, schools, shopping, UW, UWMC and Seattle Children’s.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Laurelhurst Elementary School",
+          "grades": "K-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "1.9 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "2.2 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 41,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 61,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 45,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/6506-17th-Ave-NE-Seattle-WA-98115/49142999_zpid/",
+      "zpid": 49142999,
+      "address": "6506 17th Avenue NE, Seattle, WA 98115",
+      "zip": "98115",
+      "price": 1000000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1930,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "2,718 sqft",
+      "pricePerSqft": 518,
+      "daysOnZillow": 0,
+      "status": "FOR_SALE",
+      "lat": 47.67608,
+      "lng": -122.30953,
+      "description": "Exquisite craftsman gem in the coveted Ravenna neighborhood featuring timeless character, everyday comfort & unbeatable convenience. This 3 bedroom 2 bath home is in move-in condition & offers a floorplan that feels both inviting & incredibly functional with thoughtful separation of space & a wonderful sense of warmth throughout. The living room gleams with refinished oak floors & is anchored by an original period fireplace that is perfect for relaxed evenings at home & welcoming guests. The spacious formal dining room promises memorable dinners. The large kitchen features cherry stained wood, granite countertops, new designer flooring & stainless steel appliances including a Viking gas range, it is both stylish & practical for anyone who loves to cook. The floorplan is wonderfully versatile, featuring 2 bedrooms on the main level & a secluded primary retreat on the top floor. The primary suite is truly exceptional, with abundant storage, walk in closet & a lavish bath complete with jetted tub & dual sinks. There is also expansion potential in the lower level. Set in one of Ravenna's most desirable areas, it is close to everything. With a remarkable 95 walk score! Walk to light rail, Whole Foods, cafes & more. You are also just minutes to downtown, Amazon & 520 making life exceptionally convenient. To top it all off, the home is located in #1 sought after school cluster.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Bryant Elementary School",
+          "grades": "K-5",
+          "distance": "0.9 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "0.2 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 95,
+          "label": "Walker's Paradise"
+        },
+        "transit": {
+          "score": 66,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 74,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/946-22nd-Ave-E-Seattle-WA-98112/48725631_zpid/",
+      "zpid": 48725631,
+      "address": "946 22nd Avenue E, Seattle, WA 98112",
+      "zip": "98112",
+      "price": 3850000,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 4050,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "6,390 sqft",
+      "pricePerSqft": 951,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.628136,
+      "lng": -122.30322,
+      "description": "Meticulously restored 1909 Capitol Hill residence blends timeless craftsmanship with modern luxury. Original character shines through restored box beam ceilings, refinished top-nailed hardwood floors with Purple Heart inlays, beadboard detailing, vintage fixtures, and original hardware. Offering 5 bedrooms, 3.5 baths, and over 4,000 square feet, the home features a classic floorplan with a wood-burning fireplace living room, formal dining room, sitting room, and a stunning chef’s kitchen. Custom cabinetry, island seating, Sub-Zero & Wolf appliances, a charming Dutch door, and a sun-filled breakfast nook create an inviting gathering space. Enjoy sunrise views of Lake Washington and the Cascades. The primary suite captures views of the lake, mountains, and Bellevue skyline, with a spa-inspired bath featuring Carrara marble, soaking tub, oversized shower, dual vanity, and walk-in closet. Two additional bedrooms share a heated-floor marble bath. Extensive upgrades include new electrical, plumbing, insulation, sewer line, roof, Milgard windows, and seismic improvements. Lutron lighting and audio pre-wiring add modern convenience. The lower level offers flexible living with potential MIL space, future kitchenette provisions, second laundry, fitness room, recreation area, and abundant storage. Outside, enjoy a detached 2-car EV-ready garage topped by a custom trellis entertainment deck, plus beautifully landscaped grounds. A rare opportunity to own a meticulously restored landmark.",
+      "amenities": {
+        "parkingFeatures": [
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Stevens Elementary School",
+          "grades": "K-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Edmonds S. Meany Middle School",
+          "grades": "6-8",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Garfield High School",
+          "grades": "9-12",
+          "distance": "1.6 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 73,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 56,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 80,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/9020-26th-Ave-NW-Seattle-WA-98117/49075120_zpid/",
+      "zpid": 49075120,
+      "address": "9020 26th Avenue NW, Seattle, WA 98117",
+      "zip": "98117",
+      "price": 1585000,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 2690,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,000 sqft",
+      "pricePerSqft": 589,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.694927,
+      "lng": -122.38935,
+      "description": "Enjoy the best of North Beach living in this beautifully rebuilt home on a quiet dead end street with partial Sound and mountain views, beautiful sunsets, and exceptional privacy. West facing light, large windows, and skylights fill the home with warmth, while front and back patios create seamless indoor outdoor living surrounded by fruit trees, Japanese maples, evergreens, and generous garden space. Extensively rebuilt, the home features a newer roof, a designer kitchen, stainless appliances, updated baths, quality flooring, and high efficiency gas systems. The upper level primary suite has a covered view deck, vaulted ceilings, a jetted tub, and mountain and Sound views. A second bedroom with a gas fireplace and a bonus den offer flexible space that works well for a home office, bedroom, or play space. The main level includes a spacious kitchen with bar seating, a dining area, and a skylit family room that opens to the backyard and creates an ideal setting for entertaining. This level also includes a dedicated laundry and mudroom with a separate entrance, along with an additional en-suite bedroom or office. The lower level provides ideal entry level guest or multi gen living with a private bedroom, bath, and living area. Enjoy access to Golden Gardens, local coffee shops, neighborhood bakeries, and butcher. The home is close to all major tech hubs and brings sea lion calls, summer cruise ship views, wonderful neighbors, and no through traffic.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 4
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "North Beach Elementary School",
+          "grades": "PK-5",
+          "distance": "0.1 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Whitman Middle School",
+          "grades": "6-8",
+          "distance": "0.6 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Ingraham High School",
+          "grades": "9-12",
+          "distance": "3.2 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 42,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 46,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 38,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1740-NE-103rd-St-Seattle-WA-98125/48947190_zpid/",
+      "zpid": 48947190,
+      "address": "1740 NE 103rd Street, Seattle, WA 98125",
+      "zip": "98125",
+      "price": 1250000,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 2580,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "6,381 sqft",
+      "pricePerSqft": 484,
+      "daysOnZillow": 3,
+      "status": "PENDING",
+      "lat": 47.70328,
+      "lng": -122.30797,
+      "description": "As you arrive, a sprawling entertainer's deck opening into a verdant canopy and an easy stillness that sets the tone for everything within. Step inside and a stone fireplace draws you in, its warmth an invitation to let the day fall away. Hardwood floors, wainscoting, and crown molding move quietly through the main level, grounded by natural light that shifts and settles through generous windows. A bay window frames deep green outlooks in the living room, flanked by floor-to-ceiling built-ins that invite you to stay. Beautiful and serious in equal measure, the kitchen pairs Carrara quartz, a Fisher & Paykel range, and stainless appliances with twin skylights that pour light across the kitchen and dining spaces as the day shifts. Three bedrooms complete the main level, two with ensuites, including a secondary primary suite with patio access, heated floors, and a rain shower, backlit mirrors, and ribbed honey tile. Upstairs, a full-floor primary suite is a world apart, cedar beams, a sitting area, custom closet, and an ensuite with dual vanities and a glass-enclosed shower tiled in stone. A paver courtyard stretches beyond, cradled by mature trees and luminous under café lights after dark. A detached studio offers quiet space for work, wellness, or creative life, and a covered garage plus two additional spaces complete the picture. Victory Heights, winding and leafy, frames it all, a quiet dead-end street, Meadowbrook, Kingfisher Natural Area, parks, and the city just beyond.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 3
+      },
+      "schools": [
+        {
+          "rating": "5",
+          "name": "Sacajawea Elementary School",
+          "grades": "PK-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Jane Addams Middle School",
+          "grades": "6-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "6",
+          "name": "Nathan Hale High School",
+          "grades": "9-12",
+          "distance": "0.7 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 21,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 52,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 41,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/8121-16th-Ave-SW-Seattle-WA-98106/48932788_zpid/",
+      "zpid": 48932788,
+      "address": "8121 16th Avenue SW, Seattle, WA 98106",
+      "zip": "98106",
+      "price": 798500,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1660,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,118 sqft",
+      "pricePerSqft": 481,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.529408,
+      "lng": -122.35544,
+      "description": "Front porch coffee in the morning while watching your tomato plants thrive in the urban planters. The grill’s heating up by 5pm, and your friends are already angling for an invite to sunset hour. This fully updated brick bungalow brings all the charm. Behind the fully fenced front yard lies an urban hideaway built for real life; garden beds, dinner parties, paws, projects, and lazy Sundays included. Western light floods the interiors while open living spaces spill effortlessly onto a private sunset deck with territorial views and prime positioning for celebrations, playlists, and one-more-glass evenings. The vibe is equal parts cozy and social with just enough separation to feel calm when the world gets loud. Fireplace dinners in the winter, doors open all summer, and a floor plan that flexes beautifully whether you’re nesting, hosting, or hiding from your group chat. Extraordinary garage space and generous outdoor areas mean room for bikes, gear, hobbies, and all your city-homesteader fantasies. Strategically located for secret-squirrel commutes to Downtown, SeaTac, the Eastside, or stadium nights, while still moments to Lincoln Park, White Center’s food scene, Westwood Village, and West Seattle’s holy trinity of groceries: Metropolitan Market, PCC, and Red Apple. Stylish, practical, and just the right amount of fabulous.",
+      "amenities": {
+        "parkingFeatures": [
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 3
+      },
+      "schools": [
+        {
+          "rating": "5",
+          "name": "Highland Park Elementary School",
+          "grades": "PK-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "5",
+          "name": "Denny Middle School",
+          "grades": "6-8",
+          "distance": "0.5 mi"
+        },
+        {
+          "rating": "3",
+          "name": "Chief Sealth High School",
+          "grades": "9-12",
+          "distance": "0.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 57,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 57,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 70,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4414-NE-77th-St-Seattle-WA-98115/48993982_zpid/",
+      "zpid": 48993982,
+      "address": "4414 NE 77th Street, Seattle, WA 98115",
+      "zip": "98115",
+      "price": 2195000,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3910,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,161 sqft",
+      "pricePerSqft": 561,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.685093,
+      "lng": -122.28043,
+      "description": "Welcome to this gorgeous, warm, and inviting custom-built Craftsman home nestled on a quiet street adjacent to Sandpoint Golf Course with parks and playfields a short walk away. Immaculately landscaped, this 3,910 square foot home includes 5 bedrooms, 3.5 baths, an oversized two car garage, and outdoor spaces perfect for gardening and entertaining. The main floor features a formal dining and living area with fireplace, a chef’s kitchen with an open plan family room and second fireplace. French doors open onto the back deck make for easy entertaining. The main floor includes a walk-in pantry, powder room, and office. Custom cabinetry adds warmth and character to this beautifully detailed home. Upstairs boasts a spacious primary suite with soaking tub, separate shower, two sinks, and walk-in closet. Three additional bedrooms, a full bath, and laundry room complete the upper level. The lower level features a casual living space, bedroom, and full bath. Perfect for relaxing, movie nights, or hosting guests. Updates include new roof, furnace, carpet, newly refinished solid oak flooring, EV charger, and whole house surge protection. Neighborhood highlights include top rated schools, cafes, restaurants, and markets all within walking distance. Easy access to Magnuson Park, the Burke Gilman Trail, Children’s Hospital, University Village, and UW. Close to the Montlake and Roosevelt light rail stations, I-5 and 520.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 4
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Thornton Creek Elementary School",
+          "grades": "PK-5",
+          "distance": "0.1 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "1.6 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 49,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 43,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 79,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4422-Montana-Cir-W-Seattle-WA-98199/305507283_zpid/",
+      "zpid": 305507283,
+      "address": "4422 Montana Circle W, Seattle, WA 98199",
+      "zip": "98199",
+      "price": 999000,
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1976,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": null,
+      "lotSizeSqft": null,
+      "pricePerSqft": 506,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.661865,
+      "lng": -122.41556,
+      "description": "An unbeatable opportunity exists in the heart of Seattle, nestled in the historic Fort Lawton Landmark District in Discovery Park, this home provides a unique blend of history, nature, and community amenities. With an effective year built of 2016, this 1900 home has been restored retaining its historic allure with modern updates. Spanning 4 levels, the main features an inviting front porch, spacious living & dining areas, and a modern kitchen. The two upper levels offer 3 bedrooms plus full bath, while the lower level with laundry & 3/4 bath, offers a flexible space for guests, a gym, home theater, office or whatever your heart desires. The best part? It’s completely \"lock-and-leave.\" The well-managed HOA handles the heavy lifting—exterior maintenance, groundskeeping, and master insurance (including earthquake coverage). You get the pride of a historic landmark without the weekend chores. Outside your door, you’re immersed in 534 acres of forest trails, hidden beaches, and panoramic views of the Olympic Mountains and Puget Sound. It’s a nature-first sanctuary that feels worlds away, yet you’re only five miles from the energy of downtown. For history buffs and outdoor enthusiasts alike, this is a front-row seat to the very best of the Pacific Northwest.",
+      "amenities": {
+        "parkingFeatures": [
+          "Carport"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Lawton Elementary School",
+          "grades": "K-5",
+          "distance": "1.2 mi"
+        },
+        {
+          "rating": "8",
+          "name": "McClure Middle School",
+          "grades": "6-8",
+          "distance": "3.2 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Ballard High School",
+          "grades": "9-12",
+          "distance": "2.1 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 19,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 33,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 35,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/7146-35th-Ave-SW-Seattle-WA-98126/49083415_zpid/",
+      "zpid": 49083415,
+      "address": "7146 35th Avenue SW, Seattle, WA 98126",
+      "zip": "98126",
+      "price": 699999,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2040,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "4,678 sqft",
+      "pricePerSqft": 343,
+      "daysOnZillow": 12,
+      "status": "FOR_SALE",
+      "lat": 47.537857,
+      "lng": -122.37617,
+      "description": "Charming, updated, and full of opportunity in the heart of West Seattle! This 3-bedroom, 1.5-bath home combines classic character with modern updates and exceptional future potential. Fresh interior paint and brand-new flooring create a bright, move-in-ready feel throughout, while the flexible floor plan offers two bedrooms on the main level and a spacious upstairs retreat that can serve as a private primary suite, home office, media room, or bonus space. Enjoy abundant storage and a full unfinished basement with good ceiling height and future finishing potential (buyer to verify), existing plumbing, and the electrical panel already in place. Outside, the home features a private front and back yard, a welcoming porch perfect for sipping your morning coffee, a detached garage, and rare alley access with potential for a DADU or additional development opportunity (buyer to verify). Ideally located near parks, shopping, restaurants, schools, and commuter routes, this is an outstanding opportunity for homeowners, investors, or builders in one of West Seattle’s most desirable neighborhoods.",
+      "amenities": {
+        "parkingFeatures": [
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "4",
+          "name": "Roxhill Elementary School",
+          "grades": "PK-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "5",
+          "name": "Denny Middle School",
+          "grades": "6-8",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "3",
+          "name": "Chief Sealth High School",
+          "grades": "9-12",
+          "distance": "0.7 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 70,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 47,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 56,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/5127-S-Hazel-St-Seattle-WA-98178/48866695_zpid/",
+      "zpid": 48866695,
+      "address": "5127 S Hazel Street, Seattle, WA 98178",
+      "zip": "98178",
+      "price": 689000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2620,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "0.28 Acres",
+      "pricePerSqft": 263,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.504543,
+      "lng": -122.26902,
+      "description": "Welcome home to this original mid century modern! Spacious 3 bedroom, 2 bath residence offers 2,620 square feet of comfortable living space in a convenient Seattle location. Filled with natural light, the flexible floor plan features generous living areas, oversized bedrooms, and plenty of room to work, relax, and entertain. Set back from the street, this home has a sizable yard perfect for outdoor gatherings, gardening, or creating your own private retreat. Conveniently located near parks, shopping, dining, schools, and major commuter routes, this home offers the perfect combination of space, comfort, and convenience. Don't miss this incredible opportunity to make it your own.",
+      "amenities": {
+        "parkingFeatures": [
+          "Detached Garage",
+          "RV Parking"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "2",
+          "name": "Rainier View",
+          "grades": "PK-5",
+          "distance": "0.5 mi"
+        },
+        {
+          "rating": "6",
+          "name": "Aki Kurose Middle School",
+          "grades": "6-8",
+          "distance": "3 mi"
+        },
+        {
+          "rating": "2",
+          "name": "Rainier Beach High School",
+          "grades": "9-12",
+          "distance": "1.4 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 12,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 44,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 29,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1875-E-Hamlin-St-Seattle-WA-98112/48970234_zpid/",
+      "zpid": 48970234,
+      "address": "1875 E Hamlin Street, Seattle, WA 98112",
+      "zip": "98112",
+      "price": 1300000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2610,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "6,046 sqft",
+      "pricePerSqft": 498,
+      "daysOnZillow": 12,
+      "status": "FOR_SALE",
+      "lat": 47.645298,
+      "lng": -122.30603,
+      "description": "Tucked into the heart of historic Montlake, just moments from the Montlake Cut, this lovingly preserved home offers a rare opportunity to own a cherished piece of Seattle history. Available for sale for the first time in over 30 years, this special residence is a beautiful snapshot of a bygone era—rich with character, warmth, and timeless appeal. Inside, discover spacious living areas including a large family room with original wood flooring, a formal dining room, and an expansive eat-in kitchen. Upstairs features 3 bedrooms plus an office or reading nook, and full bathroom. The lower level offers a generous bonus room ready for your vision, a ¾ bathroom, laundry area, and abundant dedicated storage. Step outside to a covered backyard gazebo, perfect for summer BBQs, celebrations, and quiet evenings at home. Ideally located near the UW campus, Husky Stadium, Seattle Yacht Club, University Village shopping, local restaurants, and close to freeway access, this is a rare chance to make your mark on one of Seattle’s most treasured neighborhoods. This is a truly special home you won’t want to miss!",
+      "amenities": {
+        "parkingFeatures": [
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 5
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Montlake Elementary School",
+          "grades": "K-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Edmonds S. Meany Middle School",
+          "grades": "6-8",
+          "distance": "1.6 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Garfield High School",
+          "grades": "9-12",
+          "distance": "2.8 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 67,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 77,
+          "label": "Excellent Transit"
+        },
+        "bike": {
+          "score": 88,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/312-NW-88th-St-Seattle-WA-98117/48877334_zpid/",
+      "zpid": 48877334,
+      "address": "312 NW 88th Street, Seattle, WA 98117",
+      "zip": "98117",
+      "price": 749900,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1400,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "4,800 sqft",
+      "pricePerSqft": 536,
+      "daysOnZillow": 0,
+      "status": "FOR_SALE",
+      "lat": 47.693005,
+      "lng": -122.3613,
+      "description": "Character + functionality harmonize seamlessly in this inviting bungalow perfectly positioned in vibrant Greenwood. Mature landscaping gives home great curb appeal. Sunlit, freshly painted interior features refinished oak hardwoods + classic fireplace with exquisite tile surround. Kitchen is fully modernized with new stainless appliances + quartz counters/backsplash. Separate dining room with thoughtful detailing. Finished lower level provides excellent options for ADU conversion or additional living space. Private sanctuary found in expansive + fenced backyard with deck. Off-street parking + close to restaurants, coffeeshops of Greenwood Avenue. Prime opportunity for first-time homebuyers.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Off Street"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Greenwood Elementary School",
+          "grades": "PK-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Robert Eagle Staff Middle School",
+          "grades": "6-8",
+          "distance": "1 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Ingraham High School",
+          "grades": "9-12",
+          "distance": "2.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 91,
+          "label": "Walker's Paradise"
+        },
+        "transit": {
+          "score": 57,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 88,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/707-Lake-Washington-Blvd-S-Seattle-WA-98144/48717199_zpid/",
+      "zpid": 48717199,
+      "address": "707 Lake Washington Boulevard S, Seattle, WA 98144",
+      "zip": "98144",
+      "price": 1498000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2200,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "6,298 sqft",
+      "pricePerSqft": 681,
+      "daysOnZillow": 7,
+      "status": "FOR_SALE",
+      "lat": 47.59626,
+      "lng": -122.28944,
+      "description": "An idyllic garden retreat with lush, established landscaping, meandering pathways, stone patios, and fragrant roses, all overlooking sparkling views of Lake Washington, snow-capped Cascades, and Bellevue skyline. This welcoming Craftsman Bungalow is filled with charm and light, offering bright, sunny rooms that embrace the surrounding natural beauty. Private and serene, it feels like a true getaway. The classic bungalow features walls of cottage-style windows, oak floors, coved ceilings, and a tile, gas fireplace anchoring the well-proportioned main living space. A lovely dining room captures lake views, while the kitchen offers direct yard access, a cozy breakfast nook with vistas, and abundant storage. Two spacious corner bedrooms and a full bathroom complete the main level. Enjoy multiple outdoor areas for entertaining and quiet contemplation. An added bonus is the fully permitted lower-level ADU studio- ideal for guests, extended living, or income potential, with filtered lake and mountain views. A one-car garage and garden shed provide ample storage for gardening and recreational gear. Just moments to the lake and Leschi Village with its marina, shops, parks, grocery, public tennis courts, and sailing lessons- this is truly an in-city oasis.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 3
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Leschi Elementary School",
+          "grades": "K-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Edmonds S. Meany Middle School",
+          "grades": "6-8",
+          "distance": "1.9 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Garfield High School",
+          "grades": "9-12",
+          "distance": "0.8 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 58,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 50,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 60,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3450-37th-Ave-SW-B-Seattle-WA-98126/443534024_zpid/",
+      "zpid": 443534024,
+      "address": "3450 37th Avenue SW #B, Seattle, WA 98126",
+      "zip": "98126",
+      "price": 895000,
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1168,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": null,
+      "lotSizeSqft": "1,668 sqft",
+      "pricePerSqft": 766,
+      "daysOnZillow": 0,
+      "status": "FOR_SALE",
+      "lat": 47.5716,
+      "lng": -122.37784,
+      "description": "Wake each morning to spectacular sunrises over the Cascades and unwind with vibrant sunset skies illuminating the Seattle skyline and Mt. Rainier. Nestled in West Seattle's coveted Belvidere neighborhood, this sophisticated townhome blends comfort, flexibility, and unforgettable views. Featuring 2.5 baths, an attached garage, energy efficient mini split heating and cooling, fully fenced front yard, covered decks on both levels, and an expansive rooftop retreat, the home offers seamless indoor-outdoor living and inspiring spaces for both work and relaxation. Just minutes from the Alaska Junction, Admiral District, Alki Beach, and the West Seattle Bridge, this move-in-ready residence delivers the best of West Seattle living.",
+      "amenities": {
+        "parkingFeatures": [
+          "Individual Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "8",
+          "name": "Lafayette Elementary School",
+          "grades": "PK-5",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Madison Middle School",
+          "grades": "6-8",
+          "distance": "0.6 mi"
+        },
+        {
+          "rating": "7",
+          "name": "West Seattle High School",
+          "grades": "9-12",
+          "distance": "0.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 62,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 50,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 71,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/6314-19th-Ave-NE-Seattle-WA-98115/49104221_zpid/",
+      "zpid": 49104221,
+      "address": "6314 19th Avenue NE, Seattle, WA 98115",
+      "zip": "98115",
+      "price": 1599000,
+      "beds": 5,
+      "baths": 2,
+      "sqft": 3110,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "4,238 sqft",
+      "pricePerSqft": 514,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.675247,
+      "lng": -122.30733,
+      "description": "Ravenna Classic! Architecture, flexible living spaces, and an unbeatable location come together in this exceptional craftsman. Rich in character, this home showcases gleaming hardwood floors, original millwork, crown molding, built-ins, and gracious entertaining spaces. This house is designed for both everyday living and memorable gatherings. A covered front porch and grand entry welcomes you into expansive living and dining. The main level offers exceptional flexibility with two large rooms that can serve as bedrooms, offices, or additional living spaces, with a full bath. The kitchen opens seamlessly to the deck and backyard. Upstairs, boasts an additional 4 rooms. The basement features a finished room ideal for a gym, media room, or rec space, plus a substantial unfinished area offering storage, workshop potential, or future expansion opportunity. Updated systems including A/C.   Just blocks from neighborhood shops, cafes, restaurants, and Light Rail, with Ravenna and Cowen Parks nearby and University Village only a short bike or bus ride.",
+      "amenities": {
+        "parkingFeatures": [
+          "None"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Bryant Elementary School",
+          "grades": "K-5",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "0.3 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 89,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 67,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 74,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1749-NW-63rd-St-Seattle-WA-98107/48823134_zpid/",
+      "zpid": 48823134,
+      "address": "1749 NW 63rd Street, Seattle, WA 98107",
+      "zip": "98107",
+      "price": 1295000,
+      "beds": 3,
+      "baths": 4,
+      "sqft": 2300,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "2,500 sqft",
+      "pricePerSqft": 563,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.674324,
+      "lng": -122.381,
+      "description": "Boutique living in the heart of strollable Ballard! A thoughtful and inspired studs-out remodel in 2020 transformed this 1900's era home into a joyfully restored craftsman sanctuary. The main level flows effortlessly between kitchen, dining, and a flexible gathering space off the kitchen, all oriented toward surrounding greenery and soft southern exposure. Timeless & beautiful built-ins, Brazilian cherry hardwood floors, artfully designed flex spaces and storage throughout. Wonderful top-floor primary suite with vaulted ceilings, western views and room to dream!  Charming covered \"rocking chair \" front porch. Whimsical studio in private backyard and ample storage in unfinished basement.",
+      "amenities": {
+        "parkingFeatures": [
+          "None"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "8",
+          "name": "Salmon Bay School",
+          "grades": "K-8",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Ballard High School",
+          "grades": "9-12",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Adams Elementary School",
+          "grades": "K-5",
+          "distance": "0.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 92,
+          "label": "Walker's Paradise"
+        },
+        "transit": {
+          "score": 51,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 94,
+          "label": "Biker's Paradise"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3038-E-Laurelhurst-Dr-NE-Seattle-WA-98105/48929020_zpid/",
+      "zpid": 48929020,
+      "address": "3038 E Laurelhurst Drive NE, Seattle, WA 98105",
+      "zip": "98105",
+      "price": 18750000,
+      "beds": 6,
+      "baths": 10,
+      "sqft": 11271,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "0.99 Acres",
+      "pricePerSqft": 1664,
+      "daysOnZillow": 56,
+      "status": "FOR_SALE",
+      "lat": 47.64945,
+      "lng": -122.275536,
+      "description": "Discover the ultimate private waterfront retreat. With over 200 ft of shoreline on almost an acre, a serene lagoon, private dock, & boathouse, this estate embodies the irreplaceable lakefront playground. Take in sweeping Cascade views, then shift from water to land w/lawn games or evenings by the firepit. Light-filled interiors & expansive living spaces blend effortlessly w/the outdoors, creating an inviting flow for relaxing or entertaining. The indoor pool, gym, gardens & rec room were designed for endless fun. Whether hosting or savoring quiet moments, this beautifully renovated home offers iconic Seattle style w/modern living. A truly special opportunity in Laurelhurst, w/ideal access to shopping, dining, downtown Seattle, &  Bellevue.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Detached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 3
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Laurelhurst Elementary School",
+          "grades": "K-5",
+          "distance": "0.9 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "2.4 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "2.6 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 6,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 27,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 52,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3913-SW-Hudson-St-Seattle-WA-98116/2089130166_zpid/",
+      "zpid": 2089130166,
+      "address": "3913 SW Hudson Street, Seattle, WA 98116",
+      "zip": "98116",
+      "price": 799950,
+      "beds": 3,
+      "baths": 4,
+      "sqft": 1390,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": null,
+      "lotSizeSqft": "1,311 sqft",
+      "pricePerSqft": 576,
+      "daysOnZillow": 0,
+      "status": "FOR_SALE",
+      "lat": 47.557297,
+      "lng": -122.382126,
+      "description": "Welcome to the heart of West Seattle living! This beautifully updated 3-bedroom, 3.5-bathroom home offers modern style, thoughtful design, and an unbeatable location. Living like new, the home features fresh luxury vinyl plank flooring, sleek quartz countertops, and a bright, open layout filled with natural light from large windows throughout. The spacious kitchen is designed for gathering and everyday living with new appliances in 2025, island seating, ample cabinetry, and contemporary finishes. A rare and desirable feature, each bedroom includes its own bathroom, providing comfort and flexibility throughout the home. Enjoy the convenience of a new washer and dryer (2026). The inviting interior flows seamlessly to the rooftop deck, creating the perfect space to relax, or entertain. Additional highlights include off-street carport parking and low-maintenance living in one of Seattle’s most sought-after neighborhoods. Enjoy easy access to nearby cafés, shopping, dining, and everyday conveniences, with the West Seattle Farmers Market, Whole Foods, Trader Joe’s, and local favorites just blocks away. Experience the perfect blend of comfort, style, and location in this exceptional home.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Carport",
+          "Off Street"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Fairmount Park Elementary",
+          "grades": "PK-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Madison Middle School",
+          "grades": "6-8",
+          "distance": "1.2 mi"
+        },
+        {
+          "rating": "7",
+          "name": "West Seattle High School",
+          "grades": "9-12",
+          "distance": "1.3 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 91,
+          "label": "Walker's Paradise"
+        },
+        "transit": {
+          "score": 51,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 69,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/7439-Latona-Ave-NE-Seattle-WA-98115/332974819_zpid/",
+      "zpid": 332974819,
+      "address": "7439 Latona Avenue NE, Seattle, WA 98115",
+      "zip": "98115",
+      "price": 815000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1440,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": null,
+      "lotSizeSqft": "832.00 sqft",
+      "pricePerSqft": 566,
+      "daysOnZillow": 0,
+      "status": "FOR_SALE",
+      "lat": 47.683117,
+      "lng": -122.32585,
+      "description": "Just steps from Seattle’s iconic Green Lake, this modern townhome blends sleek design with everyday comfort. Light-filled interiors w/ vaulted ceilings and hardwood floors create a sense of openness, while the chef’s kitchen, featuring quartz counters, stainless appliances, and custom cabinetry anchors the main living space. The flexible three-bedroom layout includes a clever lower-level retreat with a custom Murphy bed and hidden desk, perfect for guests or remote work. Upstairs primary w/ spa-inspired bath and an expansive rooftop deck with lake & mountain views elevate daily living. And- with NO HOA dues, you’ll enjoy more freedom in one of Seattle’s most vibrant neighborhoods—where trails, cafes, and culture are right outside your door.",
+      "amenities": {
+        "parkingFeatures": [
+          "None"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Green Lake Elementary School",
+          "grades": "PK-5",
+          "distance": "0.5 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "1.5 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "0.7 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 71,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 58,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 89,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/9519-8th-Ave-NW-B-Seattle-WA-98117/448804960_zpid/",
+      "zpid": 448804960,
+      "address": "9519 8th Avenue NW #B, Seattle, WA 98117",
+      "zip": "98117",
+      "price": 530000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1000,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": null,
+      "lotSizeSqft": "845.06 sqft",
+      "pricePerSqft": 530,
+      "daysOnZillow": 5,
+      "status": "FOR_SALE",
+      "lat": 47.69832,
+      "lng": -122.366554,
+      "description": "Discover urban convenience and flexible living in this beautifully maintained 3-bedroom townhome in the heart of Crown Hill. Situated on a desirable corner lot for added privacy, this home offers no HOA dues and no rental restrictions. The entry level features a private bedroom and welcoming foyer. The main floor showcases a spacious kitchen with granite slab countertops, stainless steel appliances, and an open layout that flows into the living area with a cozy gas fireplace and walk-out deck, perfect for morning coffee or evening relaxation. Upstairs, vaulted ceilings elevate two bedrooms. Thoughtfully finished bathrooms add a touch of sophistication throughout. Step outside to a fully fenced backyard, ideal for summer BBQs, pets, and outdoor enjoyment. One-car garage and plenty of off-street parking. All of this is just minutes from bus lines, the Northgate Light Rail, restaurants, shops, and everything Greenwood has to offer. A perfect blend of style and functionality in one of Seattle’s most vibrant neighborhoods.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "3",
+          "name": "Licton Springs K-8",
+          "grades": "PK-8",
+          "distance": "2 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Ingraham High School",
+          "grades": "9-12",
+          "distance": "2.3 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Whitman Middle School",
+          "grades": "6-8",
+          "distance": "0.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 75,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 53,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 58,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/321-NW-78th-St-Seattle-WA-98117/49042008_zpid/",
+      "zpid": 49042008,
+      "address": "321 NW 78th Street, Seattle, WA 98117",
+      "zip": "98117",
+      "price": 1599000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2900,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,048 sqft",
+      "pricePerSqft": 551,
+      "daysOnZillow": 10,
+      "status": "FOR_SALE",
+      "lat": 47.68524,
+      "lng": -122.36162,
+      "description": "This quintessential 1931 brick tudor has everything you could ever want in a home. Old world charm is blended with modern amenities. Fully updated in 2018, and meticulously maintained since, including a brand-new roof installed last week. The expansive primary suite occupies the top floor with beautiful built-in shelving and dressers, a walk-in closet plus an office/flex space, and a sitting area.   The ensuite bathroom boasts heated floors, a standalone tub, walk-in shower, and skylights.     The main floor of the home includes a bedroom, 3/4 bath, and charming living and dining rooms. The large and open modern kitchen includes two sinks, a walk-in pantry, and a door that leads directly to the perfectly flat and fully fenced yard.     When you find your way to the fully finished basement, you are immediately greeted by tile floors, a large family room with built in shelving, a full bathroom, 2 bedrooms, and a new kitchenette with wet bar. The large detached two car garage comes with abundant shelving/storage, a new roof, and epoxy finished floors. Located just a few blocks from top rated schools, parks, restaurants, and bars. This home and location truly has it all!",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Detached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 6
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Greenwood Elementary School",
+          "grades": "PK-5",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Robert Eagle Staff Middle School",
+          "grades": "6-8",
+          "distance": "1.3 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Ballard High School",
+          "grades": "9-12",
+          "distance": "0.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 87,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 54,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 87,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4563-33rd-Ave-S-Seattle-WA-98118/48745271_zpid/",
+      "zpid": 48745271,
+      "address": "4563 33rd Avenue S, Seattle, WA 98118",
+      "zip": "98118",
+      "price": 550000,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 1996,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "3,001 sqft",
+      "pricePerSqft": 276,
+      "daysOnZillow": 25,
+      "status": "FOR_SALE",
+      "lat": 47.561012,
+      "lng": -122.291336,
+      "description": "CITY OF SEATTLE PERMIT - IN HAND! Seller has worked very hard to get this permit and is ready to hand the project off to someone who is ready to build in Seattle. (PERMIT #6923845-CN). Approved Plans, Survey Done, Geo Report done. Seller will pass along all to new Buyer. Don't start from scratch on a new project without checking out this one first! No interior access on this one as it's boarded up. Interior Access with Seller upon Mutual Acceptance. Approved Plans call for 2 Story 1340 sqft 3 Bedroom, 2.5 Bathroom Home and an Attached Basement ADU with 1 Bedroom, 1 Bathroom, Kitchen, Living and Den. Call us for any questions.",
+      "amenities": {
+        "parkingFeatures": [
+          "None"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Hawthorne Elementary School",
+          "grades": "PK-5",
+          "distance": "0.5 mi"
+        },
+        {
+          "rating": "6",
+          "name": "Aki Kurose Middle School",
+          "grades": "6-8",
+          "distance": "1.1 mi"
+        },
+        {
+          "rating": "4",
+          "name": "Franklin High School",
+          "grades": "9-12",
+          "distance": "1 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 86,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 64,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 76,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4116-NE-60th-St-Seattle-WA-98115/48848971_zpid/",
+      "zpid": 48848971,
+      "address": "4116 NE 60th Street, Seattle, WA 98115",
+      "zip": "98115",
+      "price": 1399950,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 2022,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "1,772 sqft",
+      "pricePerSqft": 692,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.67232,
+      "lng": -122.282585,
+      "description": "Experience elevated modern living in this 4 bed/2.5 bath light-filled new construction by JMS Homes, ideally situated in the highly coveted View Ridge neighborhood! Thoughtfully designed architecture and sleek contemporary finishes define the open-concept main level, where a welcoming entry flows into bright, connected living spaces perfect for both everyday comfort and effortless entertaining. On the first floor, two versatile bedrooms share a beautifully appointed full bath, while the top-floor primary suite offers a serene setting, accompanied by another bedroom with a full bath. Full-height windows throughout the home invite an abundance of natural light, creating a bright and airy atmosphere in every space. The stylish kitchen features premium cabinetry and quality finishes that blend form and function seamlessly. Step outside to your own fenced yard—ideal for relaxing evenings or outdoor gatherings. Additional highlights include A/C units in the bedrooms, attached one-car garage, and a location just moments from U-Village's vibrant amenities. Enjoy easy access to local shops, nearby transit, and all University Village has to offer. A perfect combination of modern design, thoughtful details, and an unbeatable location.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Sand Point Elementary School",
+          "grades": "PK-5",
+          "distance": "0.9 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "0.9 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "1.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 50,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 58,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 83,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/542-W-Barrett-St-Seattle-WA-98109/463004650_zpid/",
+      "zpid": 463004650,
+      "address": "542 W Barrett Street, Seattle, WA 98109",
+      "zip": "98109",
+      "price": 1124900,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 1883,
+      "homeType": "TOWNHOUSE",
+      "yearBuilt": null,
+      "lotSizeSqft": "1 sqft",
+      "pricePerSqft": 597,
+      "daysOnZillow": 2,
+      "status": "FOR_SALE",
+      "lat": 47.647152,
+      "lng": -122.36464,
+      "description": "Modern design meets effortless city living in this spacious new Queen Anne townhome. Situated at the front of a boutique community, this residence offers a unique floor plan, elevated finishes, and an attached garage for convenient parking and storage.    The entry level features two bedrooms, a flexible den or home office, and a full bathroom—ideal for guests, remote work, or additional living space. The heart of the home is the main floor, where the open-concept kitchen, dining, and living areas create an inviting setting for everyday living and entertaining. Large windows fill the space with natural light while showcasing tranquil greenery.    The upper level is anchored by a serene primary suite featuring a spa-like ensuite bath, accompanied by an additional bedroom and full bathroom. Above, the private rooftop deck offers a spectacular place to relax, dine, or gather with friends.    Located just moments from Fremont, South Lake Union, Seattle Pacific University, neighborhood parks, coffee shops, and dining destinations, this home combines modern comfort with exceptional access to some of Seattle’s most vibrant neighborhoods.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Coe Elementary School",
+          "grades": "K-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "8",
+          "name": "McClure Middle School",
+          "grades": "6-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Lincoln High School",
+          "grades": "9-12",
+          "distance": "1.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 64,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 62,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 58,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/8216-Interlake-Ave-N-Seattle-WA-98103/48940392_zpid/",
+      "zpid": 48940392,
+      "address": "8216 Interlake Avenue N, Seattle, WA 98103",
+      "zip": "98103",
+      "price": 1295000,
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1870,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,022 sqft",
+      "pricePerSqft": 693,
+      "daysOnZillow": 11,
+      "status": "FOR_SALE",
+      "lat": 47.689255,
+      "lng": -122.340065,
+      "description": "Completely reimagined from top to bottom, this beautifully restored classic Tudor blends timeless character with elevated Scandinavian design. Vaulted ceilings with beams and an airy open-concept layout create an immediate sense of scale and light as you enter, seamlessly connecting the living, dining, and kitchen spaces for effortless everyday living and entertaining. The beautifully updated kitchen serves as the heart of the home, complemented by thoughtfully curated finishes throughout. The main level features two spacious bedrooms, a full bath, and a charming loft space that adds flexibility and architectural interest. Downstairs, an additional flex area complete with a stylish wet bar offers the perfect setup for entertaining, media, or guest space, along with two additional bedrooms, laundry, and access to the attached garage. Set on a fully fenced lot with an unexpectedly expansive backyard, the outdoor space is beautifully designed for gathering, gardening, relaxing, or simply enjoying the peaceful setting. A substantial detached outbuilding offers incredible versatility and future potential for studio space, storage, creative use, or future expansion possibilities. All of this just moments from Green Lake, where miles of trails, parks, local cafés, neighborhood restaurants, and year-round recreation create one of Seattle’s most loved lifestyles. Enjoy easy access to major commuting routes, nearby transit, and the best of North Seattle living right outside your door!",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "8",
+          "name": "Daniel Bagley Elementary School",
+          "grades": "K-5",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Robert Eagle Staff Middle School",
+          "grades": "6-8",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Ingraham High School",
+          "grades": "9-12",
+          "distance": "2.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 77,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 57,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 76,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/5235-S-Graham-St-Seattle-WA-98118/48705149_zpid/",
+      "zpid": 48705149,
+      "address": "5235 S Graham Street, Seattle, WA 98118",
+      "zip": "98118",
+      "price": 1250000,
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2460,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "0.25 Acres",
+      "pricePerSqft": 508,
+      "daysOnZillow": 6,
+      "status": "FOR_SALE",
+      "lat": 47.545784,
+      "lng": -122.26562,
+      "description": "Classic mid-century residence elevated on a crest above Seward Park with extensive views of Lake Washington, Mt. Rainier, the Cascades — just blocks from the water. Expanded views and abundant light permeate the home's interior and are enjoyed from the spacious deck with a 180° horizon. Offering 2,460 sq ft, 4 beds, 2 baths, 2 fireplaces, a finished basement, with rec room, and attached garage. Perfectly positioned near Columbia City, Hillman City, Seward Park, light rail, I-5, and I-90. The generous 11,040 sq ft lot offers the opportunity to expand and develop — Seattle's Middle Housing code now allows for cottages or additional units. Views, potential, and a location that can't be beat — all in one of Seattle's most beloved neighborhoods, Seward Park.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "5",
+          "name": "Graham Hill Elementary School",
+          "grades": "PK-5",
+          "distance": "0.1 mi"
+        },
+        {
+          "rating": "6",
+          "name": "Aki Kurose Middle School",
+          "grades": "6-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "2",
+          "name": "Rainier Beach High School",
+          "grades": "9-12",
+          "distance": "1.5 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 26,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 42,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 41,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3310-E-Laurelhurst-Dr-NE-Seattle-WA-98105/48928979_zpid/",
+      "zpid": 48928979,
+      "address": "3310 E Laurelhurst Drive NE, Seattle, WA 98105",
+      "zip": "98105",
+      "price": 9800000,
+      "beds": 3,
+      "baths": 6,
+      "sqft": 5080,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "0.39 Acres",
+      "pricePerSqft": 1929,
+      "daysOnZillow": 18,
+      "status": "FOR_SALE",
+      "lat": 47.652218,
+      "lng": -122.2768,
+      "description": "Perched above Lake Washington in Seattle’s Laurelhurst neighborhood, this extraordinary waterfront home was designed by Tom Kundig and constructed by Schuchart/Dow in 2009. Steel and glass create a seamless connection between indoors and out while framing sweeping views of Lake Washington, the Cascade Mountains and Mount Rainier. Thoughtfully designed for both entertaining and effortless daily living, the home offers expansive and bright spaces defined by a refined yet warm palette, fine attention to detail and exacting craftsmanship. The main level unfolds with a dramatic entry, foyer and central hallway leading to open living and dining spaces anchored by a central fireplace. A beautifully appointed kitchen with butler’s pantry, wet bar and a large center island are perfectly designed for both form and function. Upstairs, the primary suite serves as a private retreat, featuring a en-suite bath, fireplace, walk-in closet, laundry, and a private view deck with panoramic views. A second bedroom, full bath and west facing deck complete the upper level.The lower level is designed for relaxed living and entertaining, offering a third en-suite bedroom, laundry, gym, wine cellar, and a large family room. Outdoor living areas are equally without compromise with a fire pit, water feature, private dock, deck, as well as a lakeside cabana complete with a ¾ bath. A singular waterfront offering where world-class design, exceptional craftsmanship, and breathtaking natural beauty converge.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 4
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Laurelhurst Elementary School",
+          "grades": "K-5",
+          "distance": "0.7 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "2.2 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "2.4 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 5,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 22,
+          "label": "Minimal Transit"
+        },
+        "bike": {
+          "score": 24,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/7602-44th-Ave-SW-Seattle-WA-98136/49120432_zpid/",
+      "zpid": 49120432,
+      "address": "7602 44th Avenue SW, Seattle, WA 98136",
+      "zip": "98136",
+      "price": 2495000,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3065,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "4,242 sqft",
+      "pricePerSqft": 814,
+      "daysOnZillow": 5,
+      "status": "FOR_SALE",
+      "lat": 47.534233,
+      "lng": -122.38818,
+      "description": "Perched to capture breathtaking panoramic views of Puget Sound and the Olympic Mountains, this completely reimagined West Seattle residence offers over 3,000 square feet of exceptional living across three thoughtfully designed levels. Taken down to the studs and meticulously rebuilt with high-end finishes throughout, this 5-bedroom, 4-bathroom home seamlessly blends modern luxury with timeless Northwest beauty.    Walls of windows frame spectacular water and mountain vistas from every level, while multiple expansive decks create effortless indoor-outdoor living and unforgettable sunset experiences. The chef-inspired kitchen flows into spacious gathering areas designed for both everyday comfort and sophisticated entertaining.    Retreat to light-filled bedrooms, including a luxurious primary suite with stunning views and spa-like amenities. Every detail has been carefully curated, from premium materials and designer finishes to updated systems and craftsmanship rarely found in today's market.     The property offers exceptional flexibility with an EV-ready two-car garage topped by a large view deck, additional off-alley parking, and a yard ideal for gardening, play, or relaxation. Mini-split systems provide heating and cooling throughout the house all year round.    A rare opportunity to own a turnkey luxury home with commanding views, modern amenities, and an unbeatable West Seattle lifestyle just minutes from beaches, parks, shops, dining, and downtown Seattle.",
+      "amenities": {
+        "parkingFeatures": [
+          "Driveway",
+          "Detached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Gatewood Elementary School",
+          "grades": "K-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Madison Middle School",
+          "grades": "6-8",
+          "distance": "2.7 mi"
+        },
+        {
+          "rating": "7",
+          "name": "West Seattle High School",
+          "grades": "9-12",
+          "distance": "2.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 58,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 44,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 43,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/12582-Riviera-Pl-NE-Seattle-WA-98125/48735591_zpid/",
+      "zpid": 48735591,
+      "address": "12582 Riviera Place NE, Seattle, WA 98125",
+      "zip": "98125",
+      "price": 2995950,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 2500,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": 1958,
+      "lotSizeSqft": "0.31 Acres",
+      "pricePerSqft": 1198,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.721172,
+      "lng": -122.280975,
+      "description": "Stunning reimagined Mid-Century waterfront home! Situated on a private dead-end street, this home checks all the boxes. Fully permitted, studs-out remodel with special care given to period details: original brick, cedar T&G ceilings, wood framed windows, and more. Chef's kitchen with slim-shaker cabinets, quartz counters, and Fisher & Paykel appliances, including a 36-inch dual-fuel range. Four bedrooms and three bathrooms, each with heated tile flooring, plus a basement wet bar fully equipped for summer entertaining on the lake. Engineered hardwoods throughout. Forced-air heat and A/C provide year-round comfort. The primary bedroom and living room open to a massive 480-sq-ft TimberTech waterproofed deck with glass railings, low-voltage lighting, and expansive north- and south-facing lake views. Spacious two-car garage with EV charging and ample off-street parking for multiple vehicles. Gas spigots for BBQs on both floors. Pre-wired circuit for a sauna or hot tub beneath the deck. Outdoor shower and a hot/cold hose spigot. Covered dock with room for multiple boats. Both the home and dock feature brand-new TPO roofs. Just steps from the Burke-Gilman Trail. Nothing left undone!",
+      "amenities": {
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Water Heater: Tankless",
+          "Water Heater Location: Garage"
+        ],
+        "cooling": [
+          "90%+ High Efficiency",
+          "Forced Air",
+          "Heat Pump"
+        ],
+        "heating": [
+          "Fireplace",
+          "90%+ High Efficiency",
+          "Forced Air",
+          "Heat Pump",
+          "Electric",
+          "Natural Gas"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Engineered Hardwood"
+        ],
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "lotFeatures": [
+          "Dead End Street",
+          "Paved",
+          "Deck",
+          "Dock",
+          "Electric Car Charging",
+          "Fenced-Fully",
+          "Gas Available",
+          "Patio"
+        ],
+        "view": [
+          "Lake",
+          "Mountain(s)"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2,
+        "hasFireplace": true,
+        "fireplaceFeatures": [
+          "Gas",
+          "Wood Burning",
+          "Lower Level: 1",
+          "Upper Level: 1",
+          "Fireplace"
+        ],
+        "roofType": "Flat",
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "hasView": true,
+        "waterfrontFeatures": [
+          "Low Bank"
+        ]
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Cedar Park Elementary School",
+          "grades": "PK-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Jane Addams Middle School",
+          "grades": "6-8",
+          "distance": "1 mi"
+        },
+        {
+          "rating": "6",
+          "name": "Nathan Hale High School",
+          "grades": "9-12",
+          "distance": "1.1 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 30,
+          "label": "Car-Dependent"
+        },
+        "transit": {
+          "score": 51,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 46,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/2077-E-Howe-St-Seattle-WA-98112/49098602_zpid/",
+      "zpid": 49098602,
+      "address": "2077 E Howe Street, Seattle, WA 98112",
+      "zip": "98112",
+      "price": 1200000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 3080,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,580 sqft",
+      "pricePerSqft": 390,
+      "daysOnZillow": 5,
+      "status": "FOR_SALE",
+      "lat": 47.637806,
+      "lng": -122.30477,
+      "description": "For the first time in 65 years, this beloved Montlake Craftsman opens its doors to a new era. Perched among the treetops on a rare street-to-street lot, this enchanting home blends timeless character with thoughtful architectural additions designed by its architect-owner over decades of loving stewardship.Original craftsmanship remains beautifully intact, including rich box beam ceilings, gleaming millwork, built-ins, and historic wavy glass windows, all underscoring the warmth and artistry throughout. Sunlight pours into inviting window seats and gathering spaces designed for conversation, reading, and quiet mornings above the trees. The living room centers around a striking stone fireplace and opens to a storybook porch tucked into the canopy, while the elegant dining room features display cabinets and a cozy window seat. A charming banquette kitchen, butler’s pantry, reclaimed historic Seattle doors, and beautifully imagined custom spaces add layers of personality throughout.Upstairs, the generous primary suite offers its own fireplace, a large window seat, and a remarkable dressing room inspired by a Venetian haberdashery. The lower level includes high ceilings, hardwood floors, a spacious den, separate-entry guest suite, and flexible living possibilities. Just moments from Montlake Park, Capitol Hill, UW, and University Village, this is more than a home—it is a rare opportunity to preserve and reimagine a treasured piece of Seattle history.",
+      "amenities": {
+        "parkingFeatures": [
+          "Detached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "Montlake Elementary School",
+          "grades": "K-5",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Edmonds S. Meany Middle School",
+          "grades": "6-8",
+          "distance": "1.1 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Garfield High School",
+          "grades": "9-12",
+          "distance": "2.3 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 69,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 54,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 74,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1533-38th-Ave-E-Seattle-WA-98112/48956633_zpid/",
+      "zpid": 48956633,
+      "address": "1533 38th Avenue E, Seattle, WA 98112",
+      "zip": "98112",
+      "price": 4500000,
+      "beds": 5,
+      "baths": 5,
+      "sqft": 5870,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": 2011,
+      "lotSizeSqft": "7,200 sqft",
+      "pricePerSqft": 767,
+      "daysOnZillow": 3,
+      "status": "FOR_SALE",
+      "lat": 47.63319,
+      "lng": -122.28446,
+      "description": "Nestled on expansive private grounds in the heart of Madison Park, this extraordinary 5,870 sqft NW Contemporary offers a rare blend of timeless architecture and serene natural beauty. Soaring ceilings, expansive walls of glass, and floor-to-ceiling windows flood the home with natural light while framing lush garden views throughout, creating a seamless connection between indoor and outdoor living. Designed for both grand entertaining and everyday comfort, the thoughtfully crafted floor plan features generous living spaces and refined finishes. Imagine evenings filled with music around the grand piano, an iconic centerpiece for unforgettable moments. The luxurious primary suite serves as a private retreat with its own fireplace and spa-like ambiance. Four additional bedrooms and three full baths on the upper level provide flexibility for a variety of living arrangements, while the lower level offers a guest suite and versatile flex spaces ideal for a home office, fitness room, media lounge, or multigenerational living. Outside, a stunning Japanese-inspired Zen garden designed by a renowned landscape architect creates a tranquil sanctuary of curated pathways, mature plantings, and seasonal color. Offering a remarkable sense of privacy and seclusion, yet just moments from Madison Park’s waterfront, cafés, restaurants, parks, and amenities, this exceptional residence captures the very best of Northwest living in one of Seattle’s most coveted neighborhoods.",
+      "amenities": {
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer",
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Garbage Disposal",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Washer(s)"
+        ],
+        "cooling": [
+          "Forced Air",
+          "Heat Pump",
+          "High Efficiency (Unspecified)"
+        ],
+        "heating": [
+          "Fireplace",
+          "Forced Air",
+          "Heat Pump",
+          "High Efficiency (Unspecified)",
+          "Electric",
+          "Natural Gas"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Hardwood",
+          "Carpet"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Dining Room",
+          "High Tech Cabling"
+        ],
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "lotFeatures": [
+          "Corner Lot",
+          "Curbs",
+          "Paved",
+          "Sidewalk",
+          "Deck",
+          "Fenced-Partially",
+          "Gas Available",
+          "Patio",
+          "Sprinkler System"
+        ],
+        "view": [
+          "Lake",
+          "Mountain(s)",
+          "Territorial"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 4,
+        "hasFireplace": false,
+        "roofType": "Flat",
+        "foundationDetails": [
+          "Poured Concrete"
+        ],
+        "hasView": true
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "McGilvra Elementary School",
+          "grades": "K-5",
+          "distance": "0.1 mi"
+        },
+        {
+          "rating": "7",
+          "name": "Edmonds S. Meany Middle School",
+          "grades": "6-8",
+          "distance": "1.2 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Garfield High School",
+          "grades": "9-12",
+          "distance": "2.1 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 80,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 32,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 48,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1528-1st-Ave-W-Seattle-WA-98119/48930655_zpid/",
+      "zpid": 48930655,
+      "address": "1528 1st Avenue W, Seattle, WA 98119",
+      "zip": "98119",
+      "price": 1000000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1440,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "2,330 sqft",
+      "pricePerSqft": 694,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.633224,
+      "lng": -122.358055,
+      "description": "Picture-perfect and perched on top of Queen Anne, this thoughtfully remodeled 1910 home blends fairytale charm with a calming garden setting. Just one block from Queen Anne Ave, restaurants, coffee shops, grocery stores, spas, shops, bars, boutiques, and everyday services are right around the corner. With 3 bedrooms plus an office or 4 bedrooms , 2 full baths, and 2 fireplaces, this is a rare opportunity to own a single-family home on top of Queen Anne with no monthly dues or homeowners’ association, all at a more approachable price point than many larger homes in the neighborhood. Set above the street, the home enjoys a lovely outlook over a quiet, tree-lined block, while beautifully landscaped front gardens create an oasis-like welcome. Inside, warm and inviting spaces offer comfort, character and an easy in-city lifestyle. Out back, an adorable storybook patio surrounded by lush plantings creates a private retreat for morning coffee, al fresco dining and delightful conversation. Enjoy the charm and independence of a house with the convenience of one of Seattle’s favorite urban villages. Close to parks, transit, Seattle Center, SLU. Downtown, Fremont, Ballard, Belltown and all the best of Queen Anne living!",
+      "amenities": {
+        "parkingFeatures": [
+          "None"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "7",
+          "name": "Hay Elementary School",
+          "grades": "K-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "8",
+          "name": "McClure Middle School",
+          "grades": "6-8",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "8",
+          "name": "The Center School",
+          "grades": "9-12",
+          "distance": "0.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 96,
+          "label": "Walker's Paradise"
+        },
+        "transit": {
+          "score": 59,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 59,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/9620-Rainier-Ave-S-Seattle-WA-98118/49016843_zpid/",
+      "zpid": 49016843,
+      "address": "9620 Rainier Avenue S, Seattle, WA 98118",
+      "zip": "98118",
+      "price": 2200000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 3730,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": 1964,
+      "lotSizeSqft": "6,686 sqft",
+      "pricePerSqft": 590,
+      "daysOnZillow": 6,
+      "status": "FOR_SALE",
+      "lat": 47.519028,
+      "lng": -122.256325,
+      "description": "Exceptional custom Lake Washington waterfront retreat designed for effortless lakeside living, elegant entertaining, and sweeping panoramic views from every level. This spacious 4-bedroom, 2.75-bath mid-century home offers 3,730 square feet of living space and 50 feet of deeded lakefront, complete with sheltered deep-water moorage and a boat lift. Distinctive architectural details include exposed beam construction, floor-to-ceiling windows, floating stairs, skylights that fill the home with natural light, vaulted ceilings, a sandstone hearth with built-in benches, custom bookcases, gleaming hardwood floors throughout, cedar-lined walls and ceilings. Family room French doors open to the dockside deck, and a loft provides an additional lake-view retreat. The well-appointed kitchen features a large center island, breakfast counter seating, a wet bar, abundant cabinetry, a full-height backsplash, stainless steel appliances, and an adjacent formal dining room with dramatic close-up water views. The expansive primary suite occupies an entire wing of the second floor and includes a bay window sitting area, a five-piece bath with jetted tub, and a walk-in closet. Outdoor amenities include a fully fenced courtyard with a tiki bar and recreation area, multiple view decks, and your very own boat launch. A two-car garage and additional driveway parking complete this remarkable waterfront property. Just in time for your summertime enjoyment!",
+      "amenities": {
+        "appliances": [
+          "Dishwasher",
+          "Dryer",
+          "Microwave",
+          "Refrigerator",
+          "Stove(s)/Range(s)",
+          "Washer",
+          "Dishwasher(s)",
+          "Dryer(s)",
+          "Microwave(s)",
+          "Refrigerator(s)",
+          "Washer(s)"
+        ],
+        "cooling": [
+          "Forced Air"
+        ],
+        "heating": [
+          "Fireplace",
+          "Forced Air",
+          "Natural Gas"
+        ],
+        "flooring": [
+          "Ceramic Tile",
+          "Hardwood",
+          "Vinyl",
+          "Carpet"
+        ],
+        "interiorFeatures": [
+          "Bath Off Primary",
+          "Dining Room",
+          "Loft"
+        ],
+        "parkingFeatures": [
+          "Driveway",
+          "Attached Garage"
+        ],
+        "lotFeatures": [
+          "Curbs",
+          "Paved",
+          "Sidewalk",
+          "Boat House",
+          "Cable TV",
+          "Deck",
+          "Dock",
+          "Gas Available",
+          "Gated Entry",
+          "High Speed Internet"
+        ],
+        "view": [
+          "Islands",
+          "Lake",
+          "Mountain(s)"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 4,
+        "hasFireplace": true,
+        "fireplaceFeatures": [
+          "Wood Burning",
+          "Main Level: 1",
+          "Fireplace"
+        ],
+        "roofType": "Composition",
+        "foundationDetails": [
+          "See Remarks"
+        ],
+        "hasView": true,
+        "waterfrontFeatures": [
+          "Low Bank",
+          "Lake",
+          "No Bank"
+        ]
+      },
+      "schools": [
+        {
+          "rating": "5",
+          "name": "Emerson Elementary School",
+          "grades": "PK-5",
+          "distance": "0.3 mi"
+        },
+        {
+          "rating": "6",
+          "name": "Aki Kurose Middle School",
+          "grades": "6-8",
+          "distance": "2.3 mi"
+        },
+        {
+          "rating": "2",
+          "name": "Rainier Beach High School",
+          "grades": "9-12",
+          "distance": "0.6 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 57,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 46,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 30,
+          "label": "Somewhat Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4715-Densmore-Ave-N-Seattle-WA-98103/48920355_zpid/",
+      "zpid": 48920355,
+      "address": "4715 Densmore Avenue N, Seattle, WA 98103",
+      "zip": "98103",
+      "price": 1150000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2510,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "3,301 sqft",
+      "pricePerSqft": 458,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.663357,
+      "lng": -122.338005,
+      "description": "Welcome to Wallingford, known for its bustling center and quiet side streets, plus a plentitude of historic early 20th century homes. This is your opportunity to invest in a home and a neighborhood where deep, solidly built front porches invite spontaneous chats among neighbors on a summer evening, where tree-lined sidewalks provide endless opportunities to explore, shop, eat, and play. This home, just like Wallingford, has been lovingly preserved, yet strategically modernized to accommodate today’s lifestyle. You’ll adore the sleekly updated eat-in kitchen with gas range and Sub-Zero refrigerator. With two sightlines and access points from the kitchen to the back deck and yard, which is anchored by a sprawling tree just begging for a tire swing, indoor/outdoor living comes naturally. The dining room and living room are gently made distinct by an arched transition, the shape of which is mimicked above the bay window. The wood fireplace, surrounded by built-in shelves, creates a natural focal point in the light-filled living room. The luxe main floor primary suite boasts a bookcase wall and a massive passthrough closet with more built-ins. Upstairs you have a sunny, spacious bedroom, a second bathroom with skylight, and a big bonus space. Downstairs is overflowing with potential; stylish bedroom with more built-ins + the high ceilings = high ceiling on investment! 2021 roof, 2022 gutters, 2026 electrical wiring, panel & service, all double paned windows, new paint and carpet.",
+      "amenities": {
+        "parkingFeatures": [
+          "None"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 0
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "John Stanford International Elementary School",
+          "grades": "K-5",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Hamilton International Middle School",
+          "grades": "6-8",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Lincoln High School",
+          "grades": "9-12",
+          "distance": "0.3 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 80,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 55,
+          "label": "Good Transit"
+        },
+        "bike": null
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/4405-Baker-Ave-NW-Seattle-WA-98107/48998184_zpid/",
+      "zpid": 48998184,
+      "address": "4405 Baker Avenue NW, Seattle, WA 98107",
+      "zip": "98107",
+      "price": 975000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2010,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "3,040 sqft",
+      "pricePerSqft": 485,
+      "daysOnZillow": 5,
+      "status": "FOR_SALE",
+      "lat": 47.660458,
+      "lng": -122.359856,
+      "description": "Take a pinch of old-world craftsmanship, a smattering of sunshine and a cup of wonderful and you land here. The kind of place people settle into for a long while. Tree lined sidewalks, lovely gardens, neighborhood gatherings, & the distant sound of play in the park. The backdrop for a lovely life. Sun ray details preside over East and West and say it all. A welcoming front porch with rocker, hardwood floors, charming details and sunlit rooms with the kind of easy flow that glides instead of grates. The main floor bedroom and den with a full bath between. The airy kitchen with the sweetest dining cove you ever did see with a door to the deck with plenty of space for dining and sunset views. Steps from the deck to the garden below which is just right for indulging your green thumb without sacrificing your weekends. 2 sweet bedrooms and a half bath upstairs with peekaboo views. The somewhat finished basement evokes jars of jam neatly placed on the shelves. Two rooms, one the perfect shop or studio and the other a garden room with door to the yard.  The rest of the open space is clean and bright with high ceilings for future potential as your needs evolve. Moments from Fremont, Ballard, Green Lake &  Phinney. The center of the universe indeed. Leave the car in the garage and enjoy Ballard’s Brew District, the coffee, dining & shopping in Fremont, the charm of old town Ballard, farmers markets, and Green Lake Park. A place to call home in a location you'll never want to leave.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "B F Day Elementary School",
+          "grades": "PK-5",
+          "distance": "0.6 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Hamilton International Middle School",
+          "grades": "6-8",
+          "distance": "1 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Lincoln High School",
+          "grades": "9-12",
+          "distance": "0.9 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 65,
+          "label": "Somewhat Walkable"
+        },
+        "transit": {
+          "score": 60,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 63,
+          "label": "Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3920-Ashworth-Ave-N-Seattle-WA-98103/48905746_zpid/",
+      "zpid": 48905746,
+      "address": "3920 Ashworth Avenue N, Seattle, WA 98103",
+      "zip": "98103",
+      "price": 1295000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2730,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "3,480 sqft",
+      "pricePerSqft": 474,
+      "daysOnZillow": 4,
+      "status": "FOR_SALE",
+      "lat": 47.654995,
+      "lng": -122.33974,
+      "description": "Perched high off the street on a coveted Wallingford corner lot, this sun-drenched 3-bedroom, 2-bathroom home perfectly blends classic character with modern updates. The light-filled main level features coved ceilings, a vintage fireplace, and a formal dining room that flows seamlessly into an updated kitchen. Two main-floor bedrooms feature French doors opening directly to a fully fenced, low-maintenance backyard—a pristine canvas ready for someone with a green thumb to create their dream outdoor oasis. Upstairs, discover an expansive, highly versatile third bedroom layout with a 3/4 bathroom. This top floor can serve as a massive primary suite complete with a dedicated home office and peek-a-boo views of the Seattle skyline, or be configured as a private bedroom with an adjacent den or media room. The property is complete with a large unfinished basement for storage, off-street driveway parking, and a garage converted into a workshop. Experience a true \"Walker’s Paradise\" just blocks from iconic local dining, coffee shops, the Burke-Gilman Trail, and Gas Works Park, with effortless access to I-5 and Highway 99.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 1
+      },
+      "schools": [
+        {
+          "rating": "9",
+          "name": "B F Day Elementary School",
+          "grades": "PK-5",
+          "distance": "0.4 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Hamilton International Middle School",
+          "grades": "6-8",
+          "distance": "0.2 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Lincoln High School",
+          "grades": "9-12",
+          "distance": "0.3 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 94,
+          "label": "Walker's Paradise"
+        },
+        "transit": {
+          "score": 60,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 84,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3003-NW-67th-St-Seattle-WA-98117/48888368_zpid/",
+      "zpid": 48888368,
+      "address": "3003 NW 67th Street, Seattle, WA 98117",
+      "zip": "98117",
+      "price": 1140000,
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1760,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": null,
+      "lotSizeSqft": "5,000 sqft",
+      "pricePerSqft": 648,
+      "daysOnZillow": 5,
+      "status": "FOR_SALE",
+      "lat": 47.67709,
+      "lng": -122.39592,
+      "description": "On a tree lined street, tucked into a sunny corner lot in Sunset Hill, this classic Cape Cod style home is brimming with picture book charm. Have you always been drawn to dormers and portico covered porches? Maybe it's the house you've always pictured yourself owning and lives on your 'vision board'. Was it painted our 'Emerald City' green?  This true four-bedroom home has all bedrooms above grade, two on the main +two spacious bedrooms on the second floor- one with Mount Rainier views. Remodeled second floor 3/4 bath with spa-like features. The lower level is finished for additional living; think romper room, movie night, gym, your choice!  Lower level also includes a laundry room plus an attached one car garage.  New heat pump offers efficient heating and A/C for year-round comfort. The backyard is a bonus that sneaks in at the end of the story- new deck, custom gazebo and hot tub for those lazy summer days ahead- privacy hedges, flowering trees and room to grow. With so many updates, this one is ready to move right in and begin your summer anew.",
+      "amenities": {
+        "parkingFeatures": [
+          "Attached Garage",
+          "Off Street"
+        ],
+        "hasGarage": true,
+        "parkingCapacity": 2
+      },
+      "schools": [
+        {
+          "rating": "3",
+          "name": "Licton Springs K-8",
+          "grades": "PK-8",
+          "distance": "0 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Ballard High School",
+          "grades": "9-12",
+          "distance": "1 mi"
+        },
+        {
+          "rating": "9",
+          "name": "Adams Elementary School",
+          "grades": "K-5",
+          "distance": "0.3 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 78,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 38,
+          "label": "Some Transit"
+        },
+        "bike": {
+          "score": 83,
+          "label": "Very Bikeable"
+        }
+      }
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/5706-35th-Ave-NE-Seattle-WA-98105/49103045_zpid/",
+      "zpid": 49103045,
+      "address": "5706 35th Ave NE, Seattle, WA 98105",
+      "zip": "98105",
+      "price": 950000,
+      "beds": 5,
+      "baths": 2,
+      "sqft": 1540,
+      "homeType": "SINGLE_FAMILY",
+      "yearBuilt": 1920,
+      "lotSizeSqft": "4,281 sqft",
+      "pricePerSqft": 617,
+      "daysOnZillow": 11,
+      "status": "FOR_SALE",
+      "lat": 47.670567,
+      "lng": -122.28988,
+      "description": "Rare Seattle opportunity in the Bryant neighborhood. Existing home plus fully planned & permitted site-specific unbuilt detached 2-bedroom, 2-bath DADU saving you time and money. Charming existing home with incredible upside and an exceptional opportunity to build equity.    Whether you're seeking rental income, multigenerational living, a long-term investment strategy, or future development flexibility, this property offers a level of preparation and optionality rarely found in Seattle.    Major capital improvements have already been completed, including engineered foundation stabilization with transferable lifetime warranty, newer roof, updated electrical, fresh paint, and updated plumbing, lower-level flooring and bathroom. Full of charm and ready for your personal touch, the home offers outstanding potential in one of Seattle’s most sought-after neighborhoods.    Enjoy partial views of Mt. Rainier and Bellevue from the second-level deck, all while being just minutes from neighborhood favorites including top rated schools, excellent parks, local shops, cafes, & restaurants.  Blocks to Bryant Elementary School, Metropolitan Market, Mioposto, Sunshine Coffee, Ravenna Brewing Co & more. Walk to University Village, Burke Gilman Trail, Children's Hospital, University of Washington, UW Link Lightrail, PCC Community Market, etc...  A must see!",
+      "amenities": {
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Refrigerator",
+          "Dishwasher(s)",
+          "Garbage Disposal",
+          "Refrigerator(s)",
+          "Water Heater: electric",
+          "Water Heater Location: Downstairs"
+        ],
+        "cooling": [
+          "Forced Air",
+          "Wall Unit(s)"
+        ],
+        "heating": [
+          "90%+ High Efficiency",
+          "Forced Air",
+          "Wall Furnace",
+          "Electric"
+        ],
+        "flooring": [
+          "Vinyl Plank",
+          "Carpet"
+        ],
+        "interiorFeatures": [
+          "Dining Room"
+        ],
+        "parkingFeatures": [
+          "Driveway",
+          "Off Street"
+        ],
+        "view": [
+          "Partial",
+          "See Remarks"
+        ],
+        "hasGarage": false,
+        "parkingCapacity": 5,
+        "stories": 2,
+        "hasFireplace": false,
+        "roofType": "Composition",
+        "foundationDetails": [
+          "Poured Concrete",
+          "Slab"
+        ],
+        "hasView": true
+      },
+      "schools": [
+        {
+          "rating": "6",
+          "name": "Bryant Elementary School",
+          "grades": "K-5",
+          "distance": "0.1 mi"
+        },
+        {
+          "rating": "8",
+          "name": "Eckstein Middle School",
+          "grades": "6-8",
+          "distance": "0.8 mi"
+        },
+        {
+          "rating": "10",
+          "name": "Roosevelt High School",
+          "grades": "9-12",
+          "distance": "1.2 mi"
+        }
+      ],
+      "gettingAround": {
+        "walk": {
+          "score": 79,
+          "label": "Very Walkable"
+        },
+        "transit": {
+          "score": 63,
+          "label": "Good Transit"
+        },
+        "bike": {
+          "score": 89,
+          "label": "Very Bikeable"
+        }
+      }
+    }
+  ]
+}

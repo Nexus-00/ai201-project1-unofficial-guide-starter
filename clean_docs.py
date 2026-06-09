@@ -33,6 +33,9 @@ REDDIT_JSON = {
 DERBY_PAGES_FILE = Path("derby_pages.txt")
 # Facebook group posts scraped to JSON (list of post objects with a "text" field).
 FACEBOOK_JSON = Path("facebook.json")
+# Structured Zillow listings (richer than the scraped HTML: specs + description
+# + amenities + schools + walkability), scraped externally to JSON.
+ZILLOW_JSON = Path("seattle_listings.json")
 
 # Exact lines (case-insensitive, after stripping) that are pure nav/UI chrome.
 JUNK_LINES = {
@@ -67,6 +70,17 @@ STATE_CODES = {
     "ok", "or", "pa", "ri", "sc", "sd", "tn", "tx", "ut", "va", "vt", "wa",
     "wi", "wv", "wy",
 }
+
+# City-data dumps huge HMDA mortgage/loan-statistics tables that survive as
+# number-only records and add no value for apartment-living questions. Drop a
+# record if it carries one of these table markers or is almost entirely numeric.
+LOAN_TABLE_MARKERS = (
+    "loans originated", "applications withdrawn", "applications approved",
+    "applications denied", "files closed for incompleteness", "preapprovals",
+    "aggregated statistics for year", "average value, number",
+    "home purchase loans", "non-occupant loans", "fha, fsa", "loans on dwellings",
+)
+NUMERIC_TOKEN_RE = re.compile(r"^[#$]?[\d,.\s%kKmM/()\-]+$")
 
 # A line is a listing fragment if it is short and not a real sentence/label.
 FRAGMENT_MAX_LEN = 55
@@ -113,6 +127,23 @@ def is_option_junk(record: str) -> bool:
     return filler / len(items) >= 0.8
 
 
+def is_loan_table_junk(record: str) -> bool:
+    """True for HMDA mortgage-table rows: marker phrases or near-all-numeric.
+
+    Real listings/prose keep words (addresses, neighborhoods, labels), so their
+    numeric share stays below the threshold and they survive.
+    """
+    low = record.lower()
+    if any(m in low for m in LOAN_TABLE_MARKERS):
+        return True
+    tokens = [t.strip() for t in record.split(",") if t.strip()]
+    if len(tokens) >= 3:
+        numeric = sum(1 for t in tokens if NUMERIC_TOKEN_RE.match(t))
+        if numeric / len(tokens) >= 0.8:
+            return True
+    return False
+
+
 def is_fragment(line: str) -> bool:
     """Short line that is a listing field, not a complete sentence."""
     if len(line) > FRAGMENT_MAX_LEN:
@@ -122,7 +153,7 @@ def is_fragment(line: str) -> bool:
     return True
 
 
-def clean_text(raw: str) -> str:
+def _clean_once(raw: str) -> str:
     raw = normalize(raw)
     lines = [ln.strip() for ln in raw.splitlines()]
     lines = [ln for ln in lines if ln and not is_junk(ln)]
@@ -155,7 +186,9 @@ def clean_text(raw: str) -> str:
     # and dropdown/calendar option lists.
     cleaned = [
         r for r in records
-        if (len(r) >= 15 or re.search(r"\d", r)) and not is_option_junk(r)
+        if (len(r) >= 15 or re.search(r"\d", r))
+        and not is_option_junk(r)
+        and not is_loan_table_junk(r)
     ]
 
     # Collapse exact consecutive duplicates.
@@ -165,6 +198,23 @@ def clean_text(raw: str) -> str:
             deduped.append(r)
 
     return "\n".join(deduped) + "\n"
+
+
+def clean_text(raw: str, max_passes: int = 10) -> str:
+    """Apply _clean_once repeatedly until the output stops changing.
+
+    A single pass isn't idempotent: it joins short fragments into comma-records,
+    and a second pass can re-group those records slightly differently. Iterating
+    to a fixed point makes cleaning deterministic, so clean_text(x) always equals
+    clean_text(clean_text(x)) — one clean_docs run produces the same corpus as N.
+    """
+    text = raw
+    for _ in range(max_passes):
+        nxt = _clean_once(text)
+        if nxt == text:
+            return text
+        text = nxt
+    return text
 
 
 # ---------- Reddit JSON -> text ----------
@@ -266,10 +316,99 @@ def convert_facebook() -> None:
     print(f"[facebook] {FACEBOOK_JSON} -> {out_file} ({len(blocks)} posts)")
 
 
+def _zillow_listing_block(listing: dict) -> str:
+    """Render one structured Zillow listing as period-terminated sentences.
+
+    Each line is a complete sentence (words + trailing period) so the downstream
+    clean_text pass treats it as a finished sentence instead of a mergeable
+    fragment, and sentence-aware chunking keeps each fact intact.
+    """
+    addr = (listing.get("address") or "").strip()
+    home = (listing.get("homeType") or "home").replace("_", " ").lower()
+    beds, baths, sqft = listing.get("beds"), listing.get("baths"), listing.get("sqft")
+    price, pps = listing.get("price"), listing.get("pricePerSqft")
+    status = (listing.get("status") or "").replace("_", " ").lower()
+    days = listing.get("daysOnZillow")
+    year = listing.get("yearBuilt")
+
+    lines: list[str] = []
+
+    spec = f"{beds}-bed, {baths}-bath {home} at {addr}"
+    if price:
+        spec += f" listed for ${price:,}"
+        if pps:
+            spec += f" (${pps}/sqft)"
+    if sqft:
+        spec += f", {sqft:,} sqft"
+    if year:
+        spec += f", built {year}"
+    if status:
+        spec += f", {status}"
+    if days is not None:
+        spec += f", {days} days on Zillow"
+    lines.append(spec.strip() + ".")
+
+    ga = listing.get("gettingAround") or {}
+    parts = []
+    for key, label in (("walk", "Walk"), ("transit", "Transit"), ("bike", "Bike")):
+        info = ga.get(key) or {}
+        if info.get("score") is not None:
+            parts.append(f"{label} score {info['score']} ({info.get('label', '').strip()})")
+    if parts:
+        lines.append("Getting around: " + "; ".join(parts) + ".")
+
+    schools = listing.get("schools") or []
+    if schools:
+        named = [
+            f"{s.get('name', '').strip()} (rating {s.get('rating', 'NA')}, "
+            f"grades {s.get('grades', 'NA')}, {s.get('distance', 'NA')})"
+            for s in schools if (s.get("name") or "").strip()
+        ]
+        if named:
+            lines.append("Nearby schools: " + "; ".join(named) + ".")
+
+    amen = listing.get("amenities") or {}
+    pf = amen.get("parkingFeatures") or []
+    if pf or amen.get("parkingCapacity") is not None:
+        pieces = []
+        if pf:
+            pieces.append(", ".join(pf).lower())
+        if amen.get("hasGarage") and not any("garage" in p for p in pieces):
+            pieces.append("garage")
+        cap = amen.get("parkingCapacity")
+        if cap is not None:
+            pieces.append(f"capacity {cap}")
+        if pieces:
+            lines.append("Parking: " + "; ".join(pieces) + ".")
+
+    desc = (listing.get("description") or "").strip()
+    if desc:
+        lines.append(desc)
+
+    return "\n".join(lines)
+
+
+def convert_zillow() -> None:
+    """Turn the structured Zillow JSON into documents/zillow/content.txt."""
+    if not ZILLOW_JSON.exists():
+        print(f"[zillow] SKIP {ZILLOW_JSON}: not found in project root.")
+        return
+    data = json.loads(ZILLOW_JSON.read_text(encoding="utf-8"))
+    listings = data.get("listings", [])
+    blocks = [_zillow_listing_block(l) for l in listings]
+    blocks = [b for b in blocks if b.strip()]
+
+    out_file = DOCUMENTS_DIR / "zillow" / "content.txt"
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    out_file.write_text("\n\n".join(blocks), encoding="utf-8")
+    print(f"[zillow] {ZILLOW_JSON} -> {out_file} ({len(blocks)} listings)")
+
+
 def main():
     convert_reddit()
     convert_derby_pages()
     convert_facebook()
+    convert_zillow()
     for content_file in sorted(DOCUMENTS_DIR.glob("*/content.txt")):
         raw = content_file.read_text(encoding="utf-8")
         cleaned = clean_text(raw)

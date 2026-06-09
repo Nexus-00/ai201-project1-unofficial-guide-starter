@@ -48,8 +48,9 @@ REQUESTS_SOURCES = {
 }
 
 # JS-rendered or bot-protected sites — fetched with a headed stealth browser.
+# NOTE: zillow is now sourced from the structured seattle_listings.json via
+# clean_docs.py (richer than the scraped HTML), so it is not scraped here.
 BROWSER_SOURCES = {
-    "zillow": "https://www.zillow.com/seattle-wa/",
     "derby_slu": "https://www.liveatderbyslu.com/",
     "apartments_com": "https://www.apartments.com/seattle-wa/",
     "craigslist": "https://seattle.craigslist.org/search/apa",
