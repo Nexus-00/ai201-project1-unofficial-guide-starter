@@ -23,8 +23,8 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
 | 4 | Craigslist | General website for buyers/renters to connect directly with sellers/landlords | https://seattle.craigslist.org/search/apa |
 | 5 | Reddit | Seattle Housing for Redditors, of varying quality. | https://www.reddit.com/r/seattlehousing/ |
 | 6 | Reddit | Pros and Cons of Living in Seattle | https://www.reddit.com/r/SeattleWA/comments/188kibg/the_pros_and_cons_of_living_in_seattle/ |
-| 7 | Tripadvisor | Forums about activites in Seattle | https://www.tripadvisor.com/ShowForum-g60878-i74-Seattle_Washington.html |
-| 8 | Facebook | Buy and Sell apartments and items at Seattle | https://www.facebook.com/marketplace/seattle/ |
+| 7 | Wikivoyage | Travel guide covering Seattle districts, getting around, and things to do | https://en.wikivoyage.org/wiki/Seattle |
+| 8 | Facebook | Facebook group about Seattle | https://www.facebook.com/groups/150655681825/ |
 | 9 | City-Data.com | Discussions of Neighborhoods, rents, and quality of life. | https://www.city-data.com/city/Seattle-Washington.html | 
 | 10 | Teamblind | Public forum popular with tech workers with threads about Seattle | https://www.teamblind.com/ |
 
@@ -32,11 +32,13 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
 
 ## Chunking Strategy
 
-**Chunk size:** 250
+**Chunk size:** 10 sentences per chunk
 
-**Overlap:** 50
+**Overlap:** 3 sentences
 
-**Reasoning:** Since the sources for finding information regarding life in the Seattle can vary greatly, a balanced chunk size with a good overlap should provide enough coverage of the info while not overwhelming the model.
+**Reasoning:** Since the sources vary greatly in format (forum posts, listings, articles), sentence-aware chunking keeps semantic units intact rather than cutting mid-sentence. A 3-sentence overlap ensures context at chunk boundaries isn't lost — larger than the original 50-character overlap because sentences carry more meaning than raw character counts.
+
+**Actual corpus size:** This configuration produces **1132 chunks** across all 10 sources (city_data 282, wikivoyage 232, reddit_housing 165, reddit_pros_cons 158, craigslist 85, facebook 85, apartments_com 50, teamblind 43, derby_slu 20, zillow 12). This is above the original ~200 target, but with top-k=3 a larger index just improves coverage rather than hurting retrieval. Listing-style sources (zillow, derby_slu) contribute fewer chunks because each listing collapses to a single sentence, unlike prose sources.
 
 ---
 
