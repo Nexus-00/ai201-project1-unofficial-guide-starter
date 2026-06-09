@@ -60,7 +60,7 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
 | 2 | What are some of the biggest tech companies in Seattle? | Microsoft, Google, Amazon, Meta |
 | 3 | How many people live in Seattle? | About at least 750,000. |
 | 4 | Is Seattle a walkable city? | Yes. |
-| 5 | What state is Seattle in? | Washington |
+| 5 | What is Seattle's 2nd most famous building? | Smith Tower |
 
 ---
 
@@ -74,12 +74,6 @@ Apartments in Seattle. Depending on where you look, rent prices and experiences 
 
 ## Architecture
 
-<!-- Draw a diagram of your pipeline showing the five stages:
-     Document Ingestion → Chunking → Embedding + Vector Store → Retrieval → Generation
-     Label each stage with the tool or library you're using.
-     You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
-     You'll use this diagram as context when prompting AI tools to implement each stage. -->
-
 ```mermaid
 flowchart TB
     A["Document Ingestion\n(pathlib / plain text files)"] --> B["Chunking\n(Python, size=250, overlap=50)"]
@@ -92,32 +86,23 @@ flowchart TB
 
 ## AI Tool Plan
 
-<!-- For each part of the pipeline below, describe:
-     - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.)
-     - What you'll give it as input (which sections of this planning.md, which requirements)
-     - What you expect it to produce
-     - How you'll verify the output matches your spec
-
-     "I'll use AI to help me code" is not a plan.
-     "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
-     with my specified chunk size and overlap" is a plan. -->
-
-I'll use Claude Code as it is what I currently have for CodePath.
-1. Document Ingestion
-  - For Document Ingestion, I'll have the model first attempt to write up a file to download the text directly, via BeautifulSoup or other optimal library, depending on the source. If the contents are gated behind a login wall or the model is blocked from accessing the data, I'll need to brainstorm a quick solution to getting around it, via user agent spoofing or manually obtaining the information. Each document(s) would reside in their own folder, representing the source data. There should be at least 10 document folders.
-2. Chunking
-  - The model will chunk the information with some overlap and prepare them for storing.
-3. Embedding + Vector Store
-  - Wire up a solution that feeds the chunks with metadata to the database using an embedding model.
-4. Retrieval
-  - Implement a simple GUI interface with a box for inserting user messages and a box to get what chunks were retrieved. Test a user prompt and see what the retrieved chunks are from the vector database.
-5. Generation
-  - Run using OpenAI's OSS 20B model powered by Groq with information from ChromaDB. Add a text box to see what the model's outputs are. Use a minimal system prompt.
-
-
+I'll use Claude Code for all parts as it is what I currently have for CodePath.
 
 **Milestone 3 — Ingestion and chunking:**
+  - For Document Ingestion, I'll have the model first attempt to write up a file to download the text directly, via BeautifulSoup or other optimal library, depending on the source. If the contents are gated behind a login wall or the model is blocked from accessing the data, I'll need to brainstorm a quick solution to getting around it, via user agent spoofing or manually obtaining the information. Each document(s) would reside in their own folder, representing the source data. There should be at least 10 document folders.
+  - The model will chunk the information with some overlap and prepare them for storing.
 
 **Milestone 4 — Embedding and retrieval:**
+  - Wire up a solution that feeds the chunks with metadata to the database using an embedding model.
+  - Implement a simple GUI interface with a box for inserting user messages and a box to get what chunks were retrieved. Test a user prompt and see what the retrieved chunks are from the vector database.
 
 **Milestone 5 — Generation and interface:**
+  - Run using OpenAI's OSS 20B model powered by Groq with information from ChromaDB. Add a text box to see what the model's outputs are. Use a minimal system prompt.
+  - Use gradio which is a thin wrapper to the actual logic found in prompt_me.py.
+
+
+
+
+
+
+
